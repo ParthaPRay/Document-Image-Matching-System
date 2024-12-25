@@ -90,13 +90,28 @@ The Document-Image Matching System is an advanced application designed to analyz
 
 ## License
 ### Commercial License
-**Developed by Partha Pratim Ray**
+Copyright (c) 2024 Partha Pratim Ray
 
-**Copyright 2024**
+Permission is hereby granted, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for personal or academic purposes only, subject to the following conditions:
 
-This code is licensed for commercial use. Unauthorized use, duplication, or reproduction of this code in any form, including but not limited to research, educational purposes, or commercial applications, without explicit written permission from the author, is strictly prohibited and subject to legal action.
+1. **Commercial Use**:
+   This Software is licensed for commercial use only under explicit written permission and a fee agreed upon with the author, Partha Pratim Ray. Unauthorized commercial use, including but not limited to distribution, sublicensing, or monetization of this Software or any derivative works, is strictly prohibited and subject to legal action.
 
-For licensing inquiries, contact:
-- **Email**: parthapratimray1986@gmail.com
-- **GitHub**: [ParthaPRay](http://github.com/ParthaPRay)
+2. **Restrictions**:
+   - The Software shall not be used for any unlawful or unethical purpose.
+   - Duplication, replication, or redistribution of the Software, in whole or in part, is prohibited without prior written consent.
+   - Modification or removal of any copyright notices is prohibited.
+
+3. **Attribution**:
+   - All usage, publications, or projects utilizing this Software must give appropriate credit to the author, Partha Pratim Ray.
+   - Include the following attribution statement in any derivative works or research:
+     > "This software was developed by Partha Pratim Ray and is used under a commercial license."
+
+4. **Warranty Disclaimer**:
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For licensing inquiries, fees, or permissions, contact:
+- Email: parthapratimray1986@gmail.com
+- GitHub: [ParthaPRay](http://github.com/ParthaPRay)
+
 
