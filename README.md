@@ -3,9 +3,9 @@
 ## Overview
 The Document-Image Matching System is an advanced application designed to analyze images, extract keywords, and fetch relevant books using cutting-edge AI capabilities. It leverages OpenAI's vision and text APIs, alongside the Open Library API, to deliver accurate and efficient results.
 
----
+
 Loom share: loom.com/share/737a9c546a68438e9cc14644a6aeb1d8
----
+
 
 ## Key Features
 1. **AI-Powered Image Analysis**
