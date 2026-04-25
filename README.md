@@ -1,4 +1,3 @@
-````markdown
 # 📚 Document–Image Matching System for Open Library using GPT 5.4
 
 AI-powered **Image → Main Entity Identification → Open Library Book Retrieval** using OpenAI Vision Models and the Open Library API.
@@ -26,11 +25,9 @@ This system is especially useful for:
 - Multimodal search experiments
 - AI-assisted bibliographic discovery
 
-Source code reference: :contentReference[oaicite:0]{index=0}
-
 ---
 
-# 🔍 Core Workflow
+## 🔍 Core Workflow
 
 ```text
 Image Upload
@@ -52,8 +49,6 @@ Open Library Search API
 Book Retrieval
    ↓
 Result Display + CSV Logging
-````
-
 ---
 
 # 🧠 Model Strategy
