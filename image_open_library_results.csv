@@ -1,0 +1,883 @@
+﻿Timestamp,Uploaded Image Path,Vision Model Used,Keyword Model Used,Image Analysis,Main Entity,Confidence,Reason,Final Open Library Search Query,Open Library Search URL,Title,Author,First Publish Year,Edition Count,Languages,First ISBN,Open Library Work ID,Message,Error,Image Encoding Time (seconds),Vision API Time (seconds),Keyword API Time (seconds),Open Library API Time (seconds),Other Processing / Network Delay (seconds),Total Processing Time (seconds)
+25-04-2026 15:47,/tmp/gradio/3ef0c25ab54be3dfc66e8671d5e0fc79f00705289c1c5531855c5075f6e9429c/ashutosh.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahatma Gandhi
+Confidence: Low
+Reason: The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,Low,"The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,https://openlibrary.org/search.json?q=Mahatma+Gandhi,Mahatma Gandhi,B. R. Nanda,1958,7,eng,'9780812000696,/works/OL327370W,,,0.0001,2.4914,0.9479,0.5711,0.0059,4.0163
+25-04-2026 15:47,/tmp/gradio/3ef0c25ab54be3dfc66e8671d5e0fc79f00705289c1c5531855c5075f6e9429c/ashutosh.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahatma Gandhi
+Confidence: Low
+Reason: The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,Low,"The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,https://openlibrary.org/search.json?q=Mahatma+Gandhi,Mahatma Gandhi,B. R. Nanda,1958,6,eng,'0195623452,/works/OL11318858W,,,0.0001,2.4914,0.9479,0.5711,0.0059,4.0163
+25-04-2026 15:47,/tmp/gradio/3ef0c25ab54be3dfc66e8671d5e0fc79f00705289c1c5531855c5075f6e9429c/ashutosh.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahatma Gandhi
+Confidence: Low
+Reason: The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,Low,"The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,https://openlibrary.org/search.json?q=Mahatma+Gandhi,Mahatma Gandhi,Mohandas Karamchand Gandhi,1929,10,"eng, spa",'9788489897496,/works/OL298465W,,,0.0001,2.4914,0.9479,0.5711,0.0059,4.0163
+25-04-2026 15:47,/tmp/gradio/3ef0c25ab54be3dfc66e8671d5e0fc79f00705289c1c5531855c5075f6e9429c/ashutosh.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahatma Gandhi
+Confidence: Low
+Reason: The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,Low,"The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,https://openlibrary.org/search.json?q=Mahatma+Gandhi,Mahatma Gandhi,Rabindranath Tagore,1963,2,eng,N/A,/works/OL308858W,,,0.0001,2.4914,0.9479,0.5711,0.0059,4.0163
+25-04-2026 15:47,/tmp/gradio/3ef0c25ab54be3dfc66e8671d5e0fc79f00705289c1c5531855c5075f6e9429c/ashutosh.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahatma Gandhi
+Confidence: Low
+Reason: The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,Low,"The image shows a well-known historical figure with a similar mustache and draped clothing, but the face is not clearly identifiable.",Mahatma Gandhi,https://openlibrary.org/search.json?q=Mahatma+Gandhi,Mahatma Gandhi,"Isabel Sanchez Vegara, Albert Arrayas",2019,4,eng,'0711246084,/works/OL21194371W,,,0.0001,2.4914,0.9479,0.5711,0.0059,4.0163
+25-04-2026 15:50,/tmp/gradio/09fe759f66b7227a55bbdedda15bd73ec3a42f23eb586f0d33ca0bfc6892bfbd/bahaihouseofworshipdelhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lotus Temple
+Confidence: High
+Reason: The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.",Lotus Temple,High,The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.,Lotus Temple,https://openlibrary.org/search.json?q=Lotus+Temple,Becoming the Lotus,Anton Temple,2007,1,eng,'9781885928184,/works/OL9852116W,,,0.0001,0.9335,1.4468,0.3706,0.0009,2.7518
+25-04-2026 15:50,/tmp/gradio/09fe759f66b7227a55bbdedda15bd73ec3a42f23eb586f0d33ca0bfc6892bfbd/bahaihouseofworshipdelhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lotus Temple
+Confidence: High
+Reason: The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.",Lotus Temple,High,The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.,Lotus Temple,https://openlibrary.org/search.json?q=Lotus+Temple,By Temple Shrine and Lotus Pool,William H. Robinson,2018,2,eng,'9780342786725,/works/OL31138277W,,,0.0001,0.9335,1.4468,0.3706,0.0009,2.7518
+25-04-2026 15:50,/tmp/gradio/09fe759f66b7227a55bbdedda15bd73ec3a42f23eb586f0d33ca0bfc6892bfbd/bahaihouseofworshipdelhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lotus Temple
+Confidence: High
+Reason: The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.",Lotus Temple,High,The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.,Lotus Temple,https://openlibrary.org/search.json?q=Lotus+Temple,By Temple Shrine and Lotus Pool,"Robinson, William, George Smith",2023,1,eng,'1021421146,/works/OL37641451W,,,0.0001,0.9335,1.4468,0.3706,0.0009,2.7518
+25-04-2026 15:50,/tmp/gradio/09fe759f66b7227a55bbdedda15bd73ec3a42f23eb586f0d33ca0bfc6892bfbd/bahaihouseofworshipdelhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lotus Temple
+Confidence: High
+Reason: The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.",Lotus Temple,High,The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.,Lotus Temple,https://openlibrary.org/search.json?q=Lotus+Temple,By temple shrine and lotus pool,William H. Robinson,1910,1,eng,N/A,/works/OL2771782W,,,0.0001,0.9335,1.4468,0.3706,0.0009,2.7518
+25-04-2026 15:50,/tmp/gradio/09fe759f66b7227a55bbdedda15bd73ec3a42f23eb586f0d33ca0bfc6892bfbd/bahaihouseofworshipdelhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lotus Temple
+Confidence: High
+Reason: The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.",Lotus Temple,High,The image shows the distinctive lotus-shaped Bahá'í House of Worship in Delhi.,Lotus Temple,https://openlibrary.org/search.json?q=Lotus+Temple,By temple shrine and lotus pool,William Robinson,1910,1,eng,'9780524100493,/works/OL13799194W,,,0.0001,0.9335,1.4468,0.3706,0.0009,2.7518
+25-04-2026 15:52,/tmp/gradio/d9c7093d5b908025fa030dad0ab6e79b12ccd24d1765f44c7bffe1cd541f1f09/banyan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Banyan tree
+Confidence: High
+Reason: The image prominently shows a large banyan tree with extensive aerial roots.",Banyan tree,High,The image prominently shows a large banyan tree with extensive aerial roots.,Banyan tree,https://openlibrary.org/search.json?q=Banyan+tree,The banyan tree,Alan F. Bartlett,1984,2,eng,'9780950764627,/works/OL4671394W,,,0.0001,0.9682,0.7874,0.4149,0.0009,2.1715
+25-04-2026 15:52,/tmp/gradio/d9c7093d5b908025fa030dad0ab6e79b12ccd24d1765f44c7bffe1cd541f1f09/banyan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Banyan tree
+Confidence: High
+Reason: The image prominently shows a large banyan tree with extensive aerial roots.",Banyan tree,High,The image prominently shows a large banyan tree with extensive aerial roots.,Banyan tree,https://openlibrary.org/search.json?q=Banyan+tree,The Banyan Tree,Christopher Nolan,1999,5,eng,'9781628720655,/works/OL24792867W,,,0.0001,0.9682,0.7874,0.4149,0.0009,2.1715
+25-04-2026 15:52,/tmp/gradio/d9c7093d5b908025fa030dad0ab6e79b12ccd24d1765f44c7bffe1cd541f1f09/banyan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Banyan tree
+Confidence: High
+Reason: The image prominently shows a large banyan tree with extensive aerial roots.",Banyan tree,High,The image prominently shows a large banyan tree with extensive aerial roots.,Banyan tree,https://openlibrary.org/search.json?q=Banyan+tree,Banyan Tree,"Darin Gilson, Chad Muir",2000,1,,'1842030140,/works/OL35682187W,,,0.0001,0.9682,0.7874,0.4149,0.0009,2.1715
+25-04-2026 15:52,/tmp/gradio/d9c7093d5b908025fa030dad0ab6e79b12ccd24d1765f44c7bffe1cd541f1f09/banyan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Banyan tree
+Confidence: High
+Reason: The image prominently shows a large banyan tree with extensive aerial roots.",Banyan tree,High,The image prominently shows a large banyan tree with extensive aerial roots.,Banyan tree,https://openlibrary.org/search.json?q=Banyan+tree,Our banyan tree,Beulah Warner Russon,1961,1,eng,N/A,/works/OL7360680W,,,0.0001,0.9682,0.7874,0.4149,0.0009,2.1715
+25-04-2026 15:52,/tmp/gradio/d9c7093d5b908025fa030dad0ab6e79b12ccd24d1765f44c7bffe1cd541f1f09/banyan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Banyan tree
+Confidence: High
+Reason: The image prominently shows a large banyan tree with extensive aerial roots.",Banyan tree,High,The image prominently shows a large banyan tree with extensive aerial roots.,Banyan tree,https://openlibrary.org/search.json?q=Banyan+tree,The banyan tree,Joan Murphy,1968,1,eng,N/A,/works/OL7283253W,,,0.0001,0.9682,0.7874,0.4149,0.0009,2.1715
+25-04-2026 15:53,/tmp/gradio/4530254b39e5c03c30cd9ff1599461e9e317c71388246baf8c3e22111042ced2/bhimbekta.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Cave paintings
+Confidence: High
+Reason: The image shows prehistoric rock art painted on a cave wall.",Cave paintings,High,The image shows prehistoric rock art painted on a cave wall.,Cave paintings,https://openlibrary.org/search.json?q=Cave+paintings,The Lascaux Cave paintings,Fernand Windels,1949,8,eng,'0670417963,/works/OL1268148W,,,0.0001,1.2528,0.6958,0.6074,0.0009,2.5571
+25-04-2026 15:53,/tmp/gradio/4530254b39e5c03c30cd9ff1599461e9e317c71388246baf8c3e22111042ced2/bhimbekta.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Cave paintings
+Confidence: High
+Reason: The image shows prehistoric rock art painted on a cave wall.",Cave paintings,High,The image shows prehistoric rock art painted on a cave wall.,Cave paintings,https://openlibrary.org/search.json?q=Cave+paintings,Cave painting,Roxane Cuvay,1963,1,eng,N/A,/works/OL7372228W,,,0.0001,1.2528,0.6958,0.6074,0.0009,2.5571
+25-04-2026 15:53,/tmp/gradio/4530254b39e5c03c30cd9ff1599461e9e317c71388246baf8c3e22111042ced2/bhimbekta.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Cave paintings
+Confidence: High
+Reason: The image shows prehistoric rock art painted on a cave wall.",Cave paintings,High,The image shows prehistoric rock art painted on a cave wall.,Cave paintings,https://openlibrary.org/search.json?q=Cave+paintings,Cave Paintings,"Jairo Buitrago, Rafael Yockteng, Elisa Amado",2020,1,eng,'9781773061726,/works/OL21892157W,,,0.0001,1.2528,0.6958,0.6074,0.0009,2.5571
+25-04-2026 15:53,/tmp/gradio/4530254b39e5c03c30cd9ff1599461e9e317c71388246baf8c3e22111042ced2/bhimbekta.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Cave paintings
+Confidence: High
+Reason: The image shows prehistoric rock art painted on a cave wall.",Cave paintings,High,The image shows prehistoric rock art painted on a cave wall.,Cave paintings,https://openlibrary.org/search.json?q=Cave+paintings,Wuthering Heights,Emily Brontë,1846,2886,"gre, fin, chi, dan, und",'9781947844261,/works/OL21177W,,,0.0001,1.2528,0.6958,0.6074,0.0009,2.5571
+25-04-2026 15:53,/tmp/gradio/4530254b39e5c03c30cd9ff1599461e9e317c71388246baf8c3e22111042ced2/bhimbekta.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Cave paintings
+Confidence: High
+Reason: The image shows prehistoric rock art painted on a cave wall.",Cave paintings,High,The image shows prehistoric rock art painted on a cave wall.,Cave paintings,https://openlibrary.org/search.json?q=Cave+paintings,Cave Paintings,Forrest Crane,2017,1,eng,'1520398352,/works/OL29648397W,,,0.0001,1.2528,0.6958,0.6074,0.0009,2.5571
+25-04-2026 15:55,/tmp/gradio/6e70faeeae0d25772eb9d8ccea36ab6199ff6e1e7bc2f6be0cad128c63b7d6a3/buddha.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Buddha
+Confidence: High
+Reason: The image shows a seated meditating figure with the characteristic Buddha iconography.",Buddha,High,The image shows a seated meditating figure with the characteristic Buddha iconography.,Buddha,https://openlibrary.org/search.json?q=Buddha,The Age of Fable,Thomas Bulfinch,1800,299,"jpn, rus, fre, eng, por",'9781490490618,/works/OL77559W,,,0.0001,1.1014,2.028,0.4881,0.0009,3.6184
+25-04-2026 15:55,/tmp/gradio/6e70faeeae0d25772eb9d8ccea36ab6199ff6e1e7bc2f6be0cad128c63b7d6a3/buddha.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Buddha
+Confidence: High
+Reason: The image shows a seated meditating figure with the characteristic Buddha iconography.",Buddha,High,The image shows a seated meditating figure with the characteristic Buddha iconography.,Buddha,https://openlibrary.org/search.json?q=Buddha,Siddhartha,Hermann Hesse,1922,206,"guj, chi, san, rus, vie",'0720620015,/works/OL872932W,,,0.0001,1.1014,2.028,0.4881,0.0009,3.6184
+25-04-2026 15:55,/tmp/gradio/6e70faeeae0d25772eb9d8ccea36ab6199ff6e1e7bc2f6be0cad128c63b7d6a3/buddha.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Buddha
+Confidence: High
+Reason: The image shows a seated meditating figure with the characteristic Buddha iconography.",Buddha,High,The image shows a seated meditating figure with the characteristic Buddha iconography.,Buddha,https://openlibrary.org/search.json?q=Buddha,Midnight's Children,Salman Rushdie,1981,71,"spa, rus, ita, kor, pol",'1857152174,/works/OL457179W,,,0.0001,1.1014,2.028,0.4881,0.0009,3.6184
+25-04-2026 15:55,/tmp/gradio/6e70faeeae0d25772eb9d8ccea36ab6199ff6e1e7bc2f6be0cad128c63b7d6a3/buddha.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Buddha
+Confidence: High
+Reason: The image shows a seated meditating figure with the characteristic Buddha iconography.",Buddha,High,The image shows a seated meditating figure with the characteristic Buddha iconography.,Buddha,https://openlibrary.org/search.json?q=Buddha,What the Buddha taught,Walpola Rahula,1959,19,eng,'9780802130310,/works/OL2314435W,,,0.0001,1.1014,2.028,0.4881,0.0009,3.6184
+25-04-2026 15:55,/tmp/gradio/6e70faeeae0d25772eb9d8ccea36ab6199ff6e1e7bc2f6be0cad128c63b7d6a3/buddha.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Buddha
+Confidence: High
+Reason: The image shows a seated meditating figure with the characteristic Buddha iconography.",Buddha,High,The image shows a seated meditating figure with the characteristic Buddha iconography.,Buddha,https://openlibrary.org/search.json?q=Buddha,The Buddha and his Dhamma,"B. R. Ambedkar, Bhimrdo Ramji Ambedkar, Bhimrao Ramji Ambedkar, Bhimrao Ambedkar",1970,13,"hin, eng",'1520321708,/works/OL63222W,,,0.0001,1.1014,2.028,0.4881,0.0009,3.6184
+25-04-2026 15:56,/tmp/gradio/90c248326de74e6dfa53db0688f70b49d795bc5f97c821eb648412a7ad89df67/cellularjail.JPG,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Red Fort
+Confidence: Medium
+Reason: The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,Medium,"The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,https://openlibrary.org/search.json?q=Red+Fort,Le rouge et le noir,Stendhal,1830,404,"jpn, chi, rus, vie, fre",'9780848806354,/works/OL733640W,,,0.0001,1.26,0.7731,0.4722,0.0012,2.5066
+25-04-2026 15:56,/tmp/gradio/90c248326de74e6dfa53db0688f70b49d795bc5f97c821eb648412a7ad89df67/cellularjail.JPG,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Red Fort
+Confidence: Medium
+Reason: The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,Medium,"The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,https://openlibrary.org/search.json?q=Red+Fort,The little red fort,Brenda Maier,2018,3,eng,'1338268961,/works/OL19738123W,,,0.0001,1.26,0.7731,0.4722,0.0012,2.5066
+25-04-2026 15:56,/tmp/gradio/90c248326de74e6dfa53db0688f70b49d795bc5f97c821eb648412a7ad89df67/cellularjail.JPG,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Red Fort
+Confidence: Medium
+Reason: The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,Medium,"The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,https://openlibrary.org/search.json?q=Red+Fort,"The Complete Sherlock Holmes [4 novels, 56 stories]",Arthur Conan Doyle,1900,118,"chi, dut, ita, eng, spa",'1593082037,/works/OL262554W,,,0.0001,1.26,0.7731,0.4722,0.0012,2.5066
+25-04-2026 15:56,/tmp/gradio/90c248326de74e6dfa53db0688f70b49d795bc5f97c821eb648412a7ad89df67/cellularjail.JPG,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Red Fort
+Confidence: Medium
+Reason: The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,Medium,"The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,https://openlibrary.org/search.json?q=Red+Fort,Metamorphoses,Ovid,1479,491,"gre, dan, und, rus, eng",'0674990463,/works/OL15292640W,,,0.0001,1.26,0.7731,0.4722,0.0012,2.5066
+25-04-2026 15:56,/tmp/gradio/90c248326de74e6dfa53db0688f70b49d795bc5f97c821eb648412a7ad89df67/cellularjail.JPG,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Red Fort
+Confidence: Medium
+Reason: The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,Medium,"The image shows a large historic red sandstone fort with arched walls and ramparts, matching the Red Fort complex.",Red Fort,https://openlibrary.org/search.json?q=Red+Fort,Hans Andersen's Fairy Tales,Hans Christian Andersen,1846,298,"yid, fre, glg, por, ger",'0894341227,/works/OL16249171W,,,0.0001,1.26,0.7731,0.4722,0.0012,2.5066
+25-04-2026 16:45,/tmp/gradio/8be62088cf8be3acb49db034af54c406f42846106b32e3fc1bc03154a95e9683/cvraman.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: C. V. Raman
+Confidence: Medium
+Reason: The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.",C. V. Raman,Medium,The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.,C. V. Raman,https://openlibrary.org/search.json?q=C.+V.+Raman,C.V.Raman,Usha Joshi,1976,1,guj,N/A,/works/OL10226043W,,,0.0003,1.5879,1.4624,2.0342,0.0009,5.0858
+25-04-2026 16:45,/tmp/gradio/8be62088cf8be3acb49db034af54c406f42846106b32e3fc1bc03154a95e9683/cvraman.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: C. V. Raman
+Confidence: Medium
+Reason: The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.",C. V. Raman,Medium,The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.,C. V. Raman,https://openlibrary.org/search.json?q=C.+V.+Raman,C.V. Raman,Uma Parameswaran,2011,1,,'9780143066897,/works/OL20412606W,,,0.0003,1.5879,1.4624,2.0342,0.0009,5.0858
+25-04-2026 16:45,/tmp/gradio/8be62088cf8be3acb49db034af54c406f42846106b32e3fc1bc03154a95e9683/cvraman.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: C. V. Raman
+Confidence: Medium
+Reason: The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.",C. V. Raman,Medium,The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.,C. V. Raman,https://openlibrary.org/search.json?q=C.+V.+Raman,C.V. Raman,Unknown,2011,1,eng,N/A,/works/OL16462660W,,,0.0003,1.5879,1.4624,2.0342,0.0009,5.0858
+25-04-2026 16:45,/tmp/gradio/8be62088cf8be3acb49db034af54c406f42846106b32e3fc1bc03154a95e9683/cvraman.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: C. V. Raman
+Confidence: Medium
+Reason: The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.",C. V. Raman,Medium,The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.,C. V. Raman,https://openlibrary.org/search.json?q=C.+V.+Raman,Scientific papers of C.V. Raman,Chandrasekhara Venkata Raman,1988,2,eng,N/A,/works/OL4421655W,,,0.0003,1.5879,1.4624,2.0342,0.0009,5.0858
+25-04-2026 16:45,/tmp/gradio/8be62088cf8be3acb49db034af54c406f42846106b32e3fc1bc03154a95e9683/cvraman.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: C. V. Raman
+Confidence: Medium
+Reason: The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.",C. V. Raman,Medium,The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.,C. V. Raman,https://openlibrary.org/search.json?q=C.+V.+Raman,Prof. C.V. Raman,S. N. Sen,1988,2,eng,N/A,/works/OL11501W,,,0.0003,1.5879,1.4624,2.0342,0.0009,5.0858
+25-04-2026 16:45,/tmp/gradio/3e1ea6055d9e52d29f8d4fa4a31477ef54826a8bdbe5dae1d4cf6186cdbb362f/dancebharatnatyam.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Bharatanatyam,Jayalakshmi Eshwar,2002,2,eng,'8188827142,/works/OL5978699W,,,0.0001,1.6077,1.408,1.0654,0.0009,4.0821
+25-04-2026 16:45,/tmp/gradio/3e1ea6055d9e52d29f8d4fa4a31477ef54826a8bdbe5dae1d4cf6186cdbb362f/dancebharatnatyam.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Essence of Nattuvangam,Kamalā Rāṇi,1997,2,eng,N/A,/works/OL1037419W,,,0.0001,1.6077,1.408,1.0654,0.0009,4.0821
+25-04-2026 16:45,/tmp/gradio/3e1ea6055d9e52d29f8d4fa4a31477ef54826a8bdbe5dae1d4cf6186cdbb362f/dancebharatnatyam.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Bharatanatyam,Davesh Soneji,2012,1,eng,'9780198083771,/works/OL21250102W,,,0.0001,1.6077,1.408,1.0654,0.0009,4.0821
+25-04-2026 16:45,/tmp/gradio/3e1ea6055d9e52d29f8d4fa4a31477ef54826a8bdbe5dae1d4cf6186cdbb362f/dancebharatnatyam.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Bharatanatyam,Devesh Soneji,2010,1,eng,'0198065396,/works/OL15634451W,,,0.0001,1.6077,1.408,1.0654,0.0009,4.0821
+25-04-2026 16:45,/tmp/gradio/3e1ea6055d9e52d29f8d4fa4a31477ef54826a8bdbe5dae1d4cf6186cdbb362f/dancebharatnatyam.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Bharatanatyam,Devesh Soneji,2010,1,eng,'9780198065395,/works/OL18730487W,,,0.0001,1.6077,1.408,1.0654,0.0009,4.0821
+25-04-2026 16:45,/tmp/gradio/2309e5ed9cfde0de2cadb5ddb23d9755b951fdfecb8c5aac33c237e07209c815/dancekuchipudi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Bharatanatyam,Jayalakshmi Eshwar,2002,2,eng,'8188827142,/works/OL5978699W,,,0.0001,1.244,0.9004,0.2689,0.001,2.4144
+25-04-2026 16:45,/tmp/gradio/2309e5ed9cfde0de2cadb5ddb23d9755b951fdfecb8c5aac33c237e07209c815/dancekuchipudi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Essence of Nattuvangam,Kamalā Rāṇi,1997,2,eng,N/A,/works/OL1037419W,,,0.0001,1.244,0.9004,0.2689,0.001,2.4144
+25-04-2026 16:45,/tmp/gradio/2309e5ed9cfde0de2cadb5ddb23d9755b951fdfecb8c5aac33c237e07209c815/dancekuchipudi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Bharatanatyam,Davesh Soneji,2012,1,eng,'9780198083771,/works/OL21250102W,,,0.0001,1.244,0.9004,0.2689,0.001,2.4144
+25-04-2026 16:45,/tmp/gradio/2309e5ed9cfde0de2cadb5ddb23d9755b951fdfecb8c5aac33c237e07209c815/dancekuchipudi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Bharatanatyam,Devesh Soneji,2010,1,eng,'0198065396,/works/OL15634451W,,,0.0001,1.244,0.9004,0.2689,0.001,2.4144
+25-04-2026 16:45,/tmp/gradio/2309e5ed9cfde0de2cadb5ddb23d9755b951fdfecb8c5aac33c237e07209c815/dancekuchipudi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bharatanatyam
+Confidence: High
+Reason: The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.",Bharatanatyam,High,The image shows a classical Indian dance pose and costume strongly associated with Bharatanatyam.,Bharatanatyam,https://openlibrary.org/search.json?q=Bharatanatyam,Bharatanatyam,Devesh Soneji,2010,1,eng,'9780198065395,/works/OL18730487W,,,0.0001,1.244,0.9004,0.2689,0.001,2.4144
+25-04-2026 15:57,/tmp/gradio/b75d6a56bbd45e4e8eafab164db408b85369123d06e38fd7da47f59e79181f82/danceraasleelamanipur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakaḷi,G. Krishna Pillai,1956,1,mal,N/A,/works/OL6895701W,,,0.0002,1.0389,0.5358,0.4224,0.0009,1.9982
+25-04-2026 15:57,/tmp/gradio/b75d6a56bbd45e4e8eafab164db408b85369123d06e38fd7da47f59e79181f82/danceraasleelamanipur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakaḷi,V. K. N.,1969,1,mal,N/A,/works/OL11139606W,,,0.0002,1.0389,0.5358,0.4224,0.0009,1.9982
+25-04-2026 15:57,/tmp/gradio/b75d6a56bbd45e4e8eafab164db408b85369123d06e38fd7da47f59e79181f82/danceraasleelamanipur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakali,Ramchandra Dev,1990,1,hin,N/A,/works/OL12433916W,,,0.0002,1.0389,0.5358,0.4224,0.0009,1.9982
+25-04-2026 15:57,/tmp/gradio/b75d6a56bbd45e4e8eafab164db408b85369123d06e38fd7da47f59e79181f82/danceraasleelamanipur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakaḷi āsvādanaṃ,Unknown,2008,1,mal,N/A,/works/OL18597925W,,,0.0002,1.0389,0.5358,0.4224,0.0009,1.9982
+25-04-2026 15:57,/tmp/gradio/b75d6a56bbd45e4e8eafab164db408b85369123d06e38fd7da47f59e79181f82/danceraasleelamanipur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakaḷi,Vi. Ke. En.,1969,1,mal,N/A,/works/OL320917W,,,0.0002,1.0389,0.5358,0.4224,0.0009,1.9982
+25-04-2026 15:58,/tmp/gradio/57a6ed0f9a39d3ad1f7c68b26a1d6f25cd6a8068c0f0236bece3cb58ee32deb5/dholavira.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ancient stone ruins
+Confidence: Medium
+Reason: The image shows the remains of a stone-built archaeological structure with walls and steps.",Ancient stone ruins,Medium,The image shows the remains of a stone-built archaeological structure with walls and steps.,Ancient stone ruins,https://openlibrary.org/search.json?q=Ancient+stone+ruins,Братья Карамазовы,Фёдор Михайлович Достоевский,1880,312,"gre, fin, jpn, swe, dan",'5050028043,/works/OL10432709W,,,0.0001,1.1633,0.8314,0.5664,0.0012,2.5624
+25-04-2026 15:58,/tmp/gradio/57a6ed0f9a39d3ad1f7c68b26a1d6f25cd6a8068c0f0236bece3cb58ee32deb5/dholavira.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ancient stone ruins
+Confidence: Medium
+Reason: The image shows the remains of a stone-built archaeological structure with walls and steps.",Ancient stone ruins,Medium,The image shows the remains of a stone-built archaeological structure with walls and steps.,Ancient stone ruins,https://openlibrary.org/search.json?q=Ancient+stone+ruins,The Art of War,"孙武, Stephen F. Kaufman, Lionel Giles, Onésimo Colavidas",1900,1542,"chi, eng, cmn, ger, hin",'1495463311,/works/OL244537W,,,0.0001,1.1633,0.8314,0.5664,0.0012,2.5624
+25-04-2026 15:58,/tmp/gradio/57a6ed0f9a39d3ad1f7c68b26a1d6f25cd6a8068c0f0236bece3cb58ee32deb5/dholavira.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ancient stone ruins
+Confidence: Medium
+Reason: The image shows the remains of a stone-built archaeological structure with walls and steps.",Ancient stone ruins,Medium,The image shows the remains of a stone-built archaeological structure with walls and steps.,Ancient stone ruins,https://openlibrary.org/search.json?q=Ancient+stone+ruins,The Prince,Niccolò Machiavelli,1515,1407,"tam, chi, rus, jpn, swe",'9781648337192,/works/OL1089297W,,,0.0001,1.1633,0.8314,0.5664,0.0012,2.5624
+25-04-2026 15:58,/tmp/gradio/57a6ed0f9a39d3ad1f7c68b26a1d6f25cd6a8068c0f0236bece3cb58ee32deb5/dholavira.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ancient stone ruins
+Confidence: Medium
+Reason: The image shows the remains of a stone-built archaeological structure with walls and steps.",Ancient stone ruins,Medium,The image shows the remains of a stone-built archaeological structure with walls and steps.,Ancient stone ruins,https://openlibrary.org/search.json?q=Ancient+stone+ruins,Warlock,Wilbur Smith,2001,13,eng,'9781587884955,/works/OL8108351W,,,0.0001,1.1633,0.8314,0.5664,0.0012,2.5624
+25-04-2026 15:58,/tmp/gradio/57a6ed0f9a39d3ad1f7c68b26a1d6f25cd6a8068c0f0236bece3cb58ee32deb5/dholavira.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ancient stone ruins
+Confidence: Medium
+Reason: The image shows the remains of a stone-built archaeological structure with walls and steps.",Ancient stone ruins,Medium,The image shows the remains of a stone-built archaeological structure with walls and steps.,Ancient stone ruins,https://openlibrary.org/search.json?q=Ancient+stone+ruins,Ancient Gods,Jim Willis,2017,1,eng,'1578596149,/works/OL19712665W,,,0.0001,1.1633,0.8314,0.5664,0.0012,2.5624
+25-04-2026 15:59,/tmp/gradio/511daabe8b7bdc74953d9b8fdec41b30e453bd14fc028027921ec713f59dce8a/dinosaur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Brachiosaurus
+Confidence: Medium
+Reason: The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,Medium,"The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,https://openlibrary.org/search.json?q=Brachiosaurus,Coloring Book,animailloverit cor,2020,337,eng,'9798634179650,/works/OL30585655W,,,0.0001,1.1117,1.2372,0.3877,0.0009,2.7376
+25-04-2026 15:59,/tmp/gradio/511daabe8b7bdc74953d9b8fdec41b30e453bd14fc028027921ec713f59dce8a/dinosaur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Brachiosaurus
+Confidence: Medium
+Reason: The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,Medium,"The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,https://openlibrary.org/search.json?q=Brachiosaurus,Brachiosaurus,Rupert Matthews,1990,1,eng,'1854850040,/works/OL2727581W,,,0.0001,1.1117,1.2372,0.3877,0.0009,2.7376
+25-04-2026 15:59,/tmp/gradio/511daabe8b7bdc74953d9b8fdec41b30e453bd14fc028027921ec713f59dce8a/dinosaur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Brachiosaurus
+Confidence: Medium
+Reason: The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,Medium,"The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,https://openlibrary.org/search.json?q=Brachiosaurus,Brachiosaurus,Rupert Matthews,2003,6,eng,'9780431166223,/works/OL2727582W,,,0.0001,1.1117,1.2372,0.3877,0.0009,2.7376
+25-04-2026 15:59,/tmp/gradio/511daabe8b7bdc74953d9b8fdec41b30e453bd14fc028027921ec713f59dce8a/dinosaur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Brachiosaurus
+Confidence: Medium
+Reason: The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,Medium,"The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,https://openlibrary.org/search.json?q=Brachiosaurus,Brachiosaurus,"Catherine Veitch, Louise Forshaw",2020,3,eng,'9781499484922,/works/OL22167418W,,,0.0001,1.1117,1.2372,0.3877,0.0009,2.7376
+25-04-2026 15:59,/tmp/gradio/511daabe8b7bdc74953d9b8fdec41b30e453bd14fc028027921ec713f59dce8a/dinosaur.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Brachiosaurus
+Confidence: Medium
+Reason: The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,Medium,"The image shows a long-necked sauropod dinosaur with a very tall front body and long tail, resembling Brachiosaurus.",Brachiosaurus,https://openlibrary.org/search.json?q=Brachiosaurus,Brachiosaurus,Daniel Nunn,2007,6,eng,'9780431184500,/works/OL21292562W,,,0.0001,1.1117,1.2372,0.3877,0.0009,2.7376
+25-04-2026 16:00,/tmp/gradio/ae56edbb936ea0594f7867778aa107525ead9b27bc180a4227e20903cc9e087c/gita.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: श्रीमद्भगवद्गीता
+Confidence: High
+Reason: The book cover prominently shows the title “श्रीमद्भगवद्गीता” in Devanagari script.",श्रीमद्भगवद्गीता,High,The book cover prominently shows the title “श्रीमद्भगवद्गीता” in Devanagari script.,श्रीमद्भगवद्गीता,https://openlibrary.org/search.json?q=%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%A6%E0%A5%8D%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%A6%E0%A5%8D%E0%A4%97%E0%A5%80%E0%A4%A4%E0%A4%BE,श्रीमद्भगवद्गीता श्रीमत् कोंकणी संपूर्ण रामायणामृतसार ,नरहरि विठ्ठल प्रभु,1979,1,kok,N/A,/works/OL43344870W,,,0.0001,1.5351,0.7089,0.4032,0.0009,2.6482
+25-04-2026 16:00,/tmp/gradio/ae56edbb936ea0594f7867778aa107525ead9b27bc180a4227e20903cc9e087c/gita.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: श्रीमद्भगवद्गीता
+Confidence: High
+Reason: The book cover prominently shows the title “श्रीमद्भगवद्गीता” in Devanagari script.",श्रीमद्भगवद्गीता,High,The book cover prominently shows the title “श्रीमद्भगवद्गीता” in Devanagari script.,श्रीमद्भगवद्गीता,https://openlibrary.org/search.json?q=%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%A6%E0%A5%8D%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%A6%E0%A5%8D%E0%A4%97%E0%A5%80%E0%A4%A4%E0%A4%BE,Hindi Gita Kavya,Yash Pal Singh,2020,1,,'1647333229,/works/OL24767871W,,,0.0001,1.5351,0.7089,0.4032,0.0009,2.6482
+25-04-2026 16:01,/tmp/gradio/ca7f010588e875f81def43adda7a1addc0c81db47eb2f4e74b3182baa1d56630/gita1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bhagavad Gita
+Confidence: High
+Reason: The book cover clearly shows the title “Bhagavad Gita.”",Bhagavad Gita,High,The book cover clearly shows the title “Bhagavad Gita.”,Bhagavad Gita,https://openlibrary.org/search.json?q=Bhagavad+Gita,Bhagavad-Gita,Vyasa,1944,37,"hin, dut, eng, san",'0874810434,/works/OL264706W,,,0.0001,0.8837,0.7869,0.4891,0.0015,2.1612
+25-04-2026 16:01,/tmp/gradio/ca7f010588e875f81def43adda7a1addc0c81db47eb2f4e74b3182baa1d56630/gita1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bhagavad Gita
+Confidence: High
+Reason: The book cover clearly shows the title “Bhagavad Gita.”",Bhagavad Gita,High,The book cover clearly shows the title “Bhagavad Gita.”,Bhagavad Gita,https://openlibrary.org/search.json?q=Bhagavad+Gita,The Bhagavad gita,Juan Mascaró,2003,1,eng,'0140449183,/works/OL18334989W,,,0.0001,0.8837,0.7869,0.4891,0.0015,2.1612
+25-04-2026 16:01,/tmp/gradio/ca7f010588e875f81def43adda7a1addc0c81db47eb2f4e74b3182baa1d56630/gita1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bhagavad Gita
+Confidence: High
+Reason: The book cover clearly shows the title “Bhagavad Gita.”",Bhagavad Gita,High,The book cover clearly shows the title “Bhagavad Gita.”,Bhagavad Gita,https://openlibrary.org/search.json?q=Bhagavad+Gita,The Bhagavad-Gita,Edwin Arnold,2002,4,eng,'1419153994,/works/OL194621W,,,0.0001,0.8837,0.7869,0.4891,0.0015,2.1612
+25-04-2026 16:01,/tmp/gradio/ca7f010588e875f81def43adda7a1addc0c81db47eb2f4e74b3182baa1d56630/gita1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bhagavad Gita
+Confidence: High
+Reason: The book cover clearly shows the title “Bhagavad Gita.”",Bhagavad Gita,High,The book cover clearly shows the title “Bhagavad Gita.”,Bhagavad Gita,https://openlibrary.org/search.json?q=Bhagavad+Gita,Shrimad Bhagvat,Karsandas Manek,1991,1,"eng, san",N/A,/works/OL10617761W,,,0.0001,0.8837,0.7869,0.4891,0.0015,2.1612
+25-04-2026 16:01,/tmp/gradio/ca7f010588e875f81def43adda7a1addc0c81db47eb2f4e74b3182baa1d56630/gita1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Bhagavad Gita
+Confidence: High
+Reason: The book cover clearly shows the title “Bhagavad Gita.”",Bhagavad Gita,High,The book cover clearly shows the title “Bhagavad Gita.”,Bhagavad Gita,https://openlibrary.org/search.json?q=Bhagavad+Gita,Bhagavad Gītā,Antonio T. De Nicolas,1990,1,eng,'9780892540181,/works/OL17910458W,,,0.0001,0.8837,0.7869,0.4891,0.0015,2.1612
+25-04-2026 16:02,/tmp/gradio/2ac83e1e434ee09320a0f7b970ac231b1220fad3072ffb8dfc4960517095646a/gwaliorfort.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mehrangarh Fort
+Confidence: High
+Reason: The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,High,"The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,https://openlibrary.org/search.json?q=Mehrangarh+Fort,"Unravelling the mysterious diagram in the form of chakras (sacred circles) in Mehrangarh Fort, Jodhpur",R. Kannan,2009,3,eng,N/A,/works/OL5862332W,,,0.0001,1.9817,0.6182,0.3809,0.0008,2.9817
+25-04-2026 16:02,/tmp/gradio/2ac83e1e434ee09320a0f7b970ac231b1220fad3072ffb8dfc4960517095646a/gwaliorfort.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mehrangarh Fort
+Confidence: High
+Reason: The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,High,"The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,https://openlibrary.org/search.json?q=Mehrangarh+Fort,"Unravelling the mysterious diagram in the form of chakras (sacred circles) in Mehrangarh Fort, Jodhpur",R. Kannan,2009,1,eng,N/A,/works/OL18583088W,,,0.0001,1.9817,0.6182,0.3809,0.0008,2.9817
+25-04-2026 16:02,/tmp/gradio/2ac83e1e434ee09320a0f7b970ac231b1220fad3072ffb8dfc4960517095646a/gwaliorfort.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mehrangarh Fort
+Confidence: High
+Reason: The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,High,"The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,https://openlibrary.org/search.json?q=Mehrangarh+Fort,Mehrangarh,G. H. R. Tillotson,2010,1,eng,'9788191047103,/works/OL23222276W,,,0.0001,1.9817,0.6182,0.3809,0.0008,2.9817
+25-04-2026 16:02,/tmp/gradio/2ac83e1e434ee09320a0f7b970ac231b1220fad3072ffb8dfc4960517095646a/gwaliorfort.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mehrangarh Fort
+Confidence: High
+Reason: The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,High,"The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,https://openlibrary.org/search.json?q=Mehrangarh+Fort,"Jodhapura kā aitihāsika durga, Meharānagaṛha",Jahūrakhāṃ Mehara,2007,1,hin,N/A,/works/OL12371188W,,,0.0001,1.9817,0.6182,0.3809,0.0008,2.9817
+25-04-2026 16:02,/tmp/gradio/2ac83e1e434ee09320a0f7b970ac231b1220fad3072ffb8dfc4960517095646a/gwaliorfort.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mehrangarh Fort
+Confidence: High
+Reason: The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,High,"The image shows the distinctive massive sandstone fort complex in Jodhpur, India.",Mehrangarh Fort,https://openlibrary.org/search.json?q=Mehrangarh+Fort,Rajput arms & armour,"Robert Elgood, India) Mehrangarh Museum Trust (Jodhpur",2017,1,eng,'938528570X,/works/OL43008996W,,,0.0001,1.9817,0.6182,0.3809,0.0008,2.9817
+25-04-2026 16:03,/tmp/gradio/8a02a9c9dcca15cceaf904db1f9d232b113406c96192282355ee8379f7071ae9/hanuman.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Hanuman
+Confidence: High
+Reason: The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.",Hanuman,High,The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.,Hanuman,https://openlibrary.org/search.json?q=Hanuman,"Ramayana, a Holy Bible of India","Vālmīki, Robert P. Goldman, Rosalind Lefeber, Sheldon I. Pollock",1823,110,"tam, fin, mal, ori, rus",'0814767168,/works/OL308980W,,,0.0001,1.1407,1.1795,0.8412,0.0009,3.1624
+25-04-2026 16:03,/tmp/gradio/8a02a9c9dcca15cceaf904db1f9d232b113406c96192282355ee8379f7071ae9/hanuman.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Hanuman
+Confidence: High
+Reason: The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.",Hanuman,High,The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.,Hanuman,https://openlibrary.org/search.json?q=Hanuman,Hanuman,D. Pattanaik,2001,1,eng,'9788187111474,/works/OL9094886W,,,0.0001,1.1407,1.1795,0.8412,0.0009,3.1624
+25-04-2026 16:03,/tmp/gradio/8a02a9c9dcca15cceaf904db1f9d232b113406c96192282355ee8379f7071ae9/hanuman.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Hanuman
+Confidence: High
+Reason: The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.",Hanuman,High,The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.,Hanuman,https://openlibrary.org/search.json?q=Hanuman,Hanumān,Unknown,1996,1,awa,N/A,/works/OL23634018W,,,0.0001,1.1407,1.1795,0.8412,0.0009,3.1624
+25-04-2026 16:03,/tmp/gradio/8a02a9c9dcca15cceaf904db1f9d232b113406c96192282355ee8379f7071ae9/hanuman.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Hanuman
+Confidence: High
+Reason: The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.",Hanuman,High,The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.,Hanuman,https://openlibrary.org/search.json?q=Hanuman,Hanuman,Svatopluk Čech,1940,1,cze,N/A,/works/OL11188608W,,,0.0001,1.1407,1.1795,0.8412,0.0009,3.1624
+25-04-2026 16:03,/tmp/gradio/8a02a9c9dcca15cceaf904db1f9d232b113406c96192282355ee8379f7071ae9/hanuman.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Hanuman
+Confidence: High
+Reason: The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.",Hanuman,High,The image shows the Hindu deity Hanuman in a classic heroic pose with a mace and devotional iconography.,Hanuman,https://openlibrary.org/search.json?q=Hanuman,Hanuman Sangrah,"Anand PRAJAPATI, Tulsi Das",2020,1,eng,'1658370589,/works/OL34502336W,,,0.0001,1.1407,1.1795,0.8412,0.0009,3.1624
+25-04-2026 16:04,/tmp/gradio/d8058fe034cae6bd08a44176fcc68d33ac64c5857f36265948e843e1362d3322/india.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Flag of India
+Confidence: High
+Reason: The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.",Flag of India,High,The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.,Flag of India,https://openlibrary.org/search.json?q=Flag+of+India,Military flags of India,Uma Prasad Thapliyal,2011,1,eng,'9788176467421,/works/OL16450062W,,,0.0001,1.8292,0.9275,0.4835,0.0009,3.2412
+25-04-2026 16:04,/tmp/gradio/d8058fe034cae6bd08a44176fcc68d33ac64c5857f36265948e843e1362d3322/india.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Flag of India
+Confidence: High
+Reason: The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.",Flag of India,High,The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.,Flag of India,https://openlibrary.org/search.json?q=Flag+of+India,The Dhvaja : Standards And Flags Of India,Unknown,N/A,1,,N/A,/works/OL34555917W,,,0.0001,1.8292,0.9275,0.4835,0.0009,3.2412
+25-04-2026 16:04,/tmp/gradio/d8058fe034cae6bd08a44176fcc68d33ac64c5857f36265948e843e1362d3322/india.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Flag of India
+Confidence: High
+Reason: The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.",Flag of India,High,The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.,Flag of India,https://openlibrary.org/search.json?q=Flag+of+India,"The dhvaja, standards and flags of India",Uma Prasad Thapliyal,1983,1,eng,N/A,/works/OL3435131W,,,0.0001,1.8292,0.9275,0.4835,0.0009,3.2412
+25-04-2026 16:04,/tmp/gradio/d8058fe034cae6bd08a44176fcc68d33ac64c5857f36265948e843e1362d3322/india.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Flag of India
+Confidence: High
+Reason: The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.",Flag of India,High,The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.,Flag of India,https://openlibrary.org/search.json?q=Flag+of+India,The Wheel Flag of India,Vasudeva Sharana Agrawala,1964,1,eng,N/A,/works/OL311060W,,,0.0001,1.8292,0.9275,0.4835,0.0009,3.2412
+25-04-2026 16:04,/tmp/gradio/d8058fe034cae6bd08a44176fcc68d33ac64c5857f36265948e843e1362d3322/india.png,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Flag of India
+Confidence: High
+Reason: The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.",Flag of India,High,The image shows the distinctive tricolor design with the blue Ashoka Chakra in the center.,Flag of India,https://openlibrary.org/search.json?q=Flag+of+India,The Wheel Flag of India,Vasudeva S. Agrawala,1964,1,eng,N/A,/works/OL38720689W,,,0.0001,1.8292,0.9275,0.4835,0.0009,3.2412
+25-04-2026 16:06,/tmp/gradio/248cf9c494d15d8b1d340c9a975f399bc25a1cc0fb86eb1331a3bebb6ffdc3b4/india1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Languages of India
+Confidence: High
+Reason: The image is a map of India labeled with major regional languages.",Languages of India,High,The image is a map of India labeled with major regional languages.,Languages of India,https://openlibrary.org/search.json?q=Languages+of+India,Book of common prayer,"Church of England, J. A. Maurault",1537,545,"gre, und, moh, grc, wel",'9780854020911,/works/OL769120W,,,0.0001,1.2793,0.6432,0.7925,0.0012,2.7163
+25-04-2026 16:06,/tmp/gradio/248cf9c494d15d8b1d340c9a975f399bc25a1cc0fb86eb1331a3bebb6ffdc3b4/india1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Languages of India
+Confidence: High
+Reason: The image is a map of India labeled with major regional languages.",Languages of India,High,The image is a map of India labeled with major regional languages.,Languages of India,https://openlibrary.org/search.json?q=Languages+of+India,The Merchant of Venice,William Shakespeare,1600,818,"gre, fin, tsn, chi, dan",'8475670369,/works/OL258758W,,,0.0001,1.2793,0.6432,0.7925,0.0012,2.7163
+25-04-2026 16:06,/tmp/gradio/248cf9c494d15d8b1d340c9a975f399bc25a1cc0fb86eb1331a3bebb6ffdc3b4/india1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Languages of India
+Confidence: High
+Reason: The image is a map of India labeled with major regional languages.",Languages of India,High,The image is a map of India labeled with major regional languages.,Languages of India,https://openlibrary.org/search.json?q=Languages+of+India,"Ramayana, a Holy Bible of India","Vālmīki, Robert P. Goldman, Rosalind Lefeber, Sheldon I. Pollock",1823,110,"tam, fin, mal, ori, rus",'0814767168,/works/OL308980W,,,0.0001,1.2793,0.6432,0.7925,0.0012,2.7163
+25-04-2026 16:06,/tmp/gradio/248cf9c494d15d8b1d340c9a975f399bc25a1cc0fb86eb1331a3bebb6ffdc3b4/india1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Languages of India
+Confidence: High
+Reason: The image is a map of India labeled with major regional languages.",Languages of India,High,The image is a map of India labeled with major regional languages.,Languages of India,https://openlibrary.org/search.json?q=Languages+of+India,Narrative of the life of Frederick Douglass,Frederick Douglass,1845,1032,"eng, spa, und",'9781613060117,/works/OL69178W,,,0.0001,1.2793,0.6432,0.7925,0.0012,2.7163
+25-04-2026 16:06,/tmp/gradio/248cf9c494d15d8b1d340c9a975f399bc25a1cc0fb86eb1331a3bebb6ffdc3b4/india1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Languages of India
+Confidence: High
+Reason: The image is a map of India labeled with major regional languages.",Languages of India,High,The image is a map of India labeled with major regional languages.,Languages of India,https://openlibrary.org/search.json?q=Languages+of+India,Black Beauty,Anna Sewell,1877,107,"fre, eng, wel, ger",'9780590240789,/works/OL15854658W,,,0.0001,1.2793,0.6432,0.7925,0.0012,2.7163
+25-04-2026 16:07,/tmp/gradio/180accf37d67cfac858e29806dbf29c4cd8929379ae4d02e69b00b6abcf29b70/indianfood.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Indian thali
+Confidence: High
+Reason: The image shows a plated assortment of Indian dishes served together as a thali.",Indian thali,High,The image shows a plated assortment of Indian dishes served together as a thali.,Indian thali,https://openlibrary.org/search.json?q=Indian+thali,Traditional Indian Thali,Vaishali Tripathi,2015,1,,'9384391786,/works/OL24856876W,,,0.0001,1.874,0.7563,0.4378,0.0009,3.069
+25-04-2026 16:07,/tmp/gradio/180accf37d67cfac858e29806dbf29c4cd8929379ae4d02e69b00b6abcf29b70/indianfood.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Indian thali
+Confidence: High
+Reason: The image shows a plated assortment of Indian dishes served together as a thali.",Indian thali,High,The image shows a plated assortment of Indian dishes served together as a thali.,Indian thali,https://openlibrary.org/search.json?q=Indian+thali,Great Indian Thali,Nandita Iyer,2023,1,eng,'9789392130434,/works/OL35715901W,,,0.0001,1.874,0.7563,0.4378,0.0009,3.069
+25-04-2026 16:07,/tmp/gradio/180accf37d67cfac858e29806dbf29c4cd8929379ae4d02e69b00b6abcf29b70/indianfood.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Indian thali
+Confidence: High
+Reason: The image shows a plated assortment of Indian dishes served together as a thali.",Indian thali,High,The image shows a plated assortment of Indian dishes served together as a thali.,Indian thali,https://openlibrary.org/search.json?q=Indian+thali,Indian Thali,Vaishali Tripathi,2013,1,,'1482800756,/works/OL24856878W,,,0.0001,1.874,0.7563,0.4378,0.0009,3.069
+25-04-2026 16:07,/tmp/gradio/180accf37d67cfac858e29806dbf29c4cd8929379ae4d02e69b00b6abcf29b70/indianfood.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Indian thali
+Confidence: High
+Reason: The image shows a plated assortment of Indian dishes served together as a thali.",Indian thali,High,The image shows a plated assortment of Indian dishes served together as a thali.,Indian thali,https://openlibrary.org/search.json?q=Indian+thali,My Thali,"Joe Thottungal, DesBrisay Anne",2023,1,eng,'1773271954,/works/OL28717898W,,,0.0001,1.874,0.7563,0.4378,0.0009,3.069
+25-04-2026 16:07,/tmp/gradio/180accf37d67cfac858e29806dbf29c4cd8929379ae4d02e69b00b6abcf29b70/indianfood.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Indian thali
+Confidence: High
+Reason: The image shows a plated assortment of Indian dishes served together as a thali.",Indian thali,High,The image shows a plated assortment of Indian dishes served together as a thali.,Indian thali,https://openlibrary.org/search.json?q=Indian+thali,Thali,Maunika Gowardhan,2021,1,,'9781784884581,/works/OL24856869W,,,0.0001,1.874,0.7563,0.4378,0.0009,3.069
+25-04-2026 16:08,/tmp/gradio/fc97e14292be669e4b685ded55ba619d7a1f3fabf16daabd22aba85871bbe229/jackfruit.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jackfruit
+Confidence: High
+Reason: The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.",Jackfruit,High,The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.,Jackfruit,https://openlibrary.org/search.json?q=Jackfruit,Jackfruit,Unknown,N/A,1,,'9789461432322,/works/OL30594555W,,,0.0001,1.478,0.7802,0.3682,0.0009,2.6274
+25-04-2026 16:08,/tmp/gradio/fc97e14292be669e4b685ded55ba619d7a1f3fabf16daabd22aba85871bbe229/jackfruit.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jackfruit
+Confidence: High
+Reason: The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.",Jackfruit,High,The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.,Jackfruit,https://openlibrary.org/search.json?q=Jackfruit,Jackfruit,Ji saays,2017,1,eng,'9781521524237,/works/OL29655915W,,,0.0001,1.478,0.7802,0.3682,0.0009,2.6274
+25-04-2026 16:08,/tmp/gradio/fc97e14292be669e4b685ded55ba619d7a1f3fabf16daabd22aba85871bbe229/jackfruit.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jackfruit
+Confidence: High
+Reason: The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.",Jackfruit,High,The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.,Jackfruit,https://openlibrary.org/search.json?q=Jackfruit,Jackfruit,"Sisir Mitra, Emma McCann",2022,1,eng,'1800622295,/works/OL28355260W,,,0.0001,1.478,0.7802,0.3682,0.0009,2.6274
+25-04-2026 16:08,/tmp/gradio/fc97e14292be669e4b685ded55ba619d7a1f3fabf16daabd22aba85871bbe229/jackfruit.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jackfruit
+Confidence: High
+Reason: The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.",Jackfruit,High,The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.,Jackfruit,https://openlibrary.org/search.json?q=Jackfruit,The jackfruit,"Sudha George Valavi, K. V. Peter, G. Thottappilly",2011,1,eng,'9781933699615,/works/OL16716949W,,,0.0001,1.478,0.7802,0.3682,0.0009,2.6274
+25-04-2026 16:08,/tmp/gradio/fc97e14292be669e4b685ded55ba619d7a1f3fabf16daabd22aba85871bbe229/jackfruit.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jackfruit
+Confidence: High
+Reason: The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.",Jackfruit,High,The image shows a whole jackfruit with a cut section revealing the yellow flesh and seeds.,Jackfruit,https://openlibrary.org/search.json?q=Jackfruit,Jackfruit Cookbook,Heather Thomas,2020,1,eng,'9781529107388,/works/OL22140089W,,,0.0001,1.478,0.7802,0.3682,0.0009,2.6274
+25-04-2026 16:08,/tmp/gradio/bcff6d4add02f5c1c8cf3503d34cea87af842f70dd29124ccce20d8e316f1311/jantarmantar.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jantar Mantar, Jaipur
+Confidence: High
+Reason: The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.","Jantar Mantar, Jaipur",High,The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.,Jantar Mantar Jaipur,https://openlibrary.org/search.json?q=Jantar+Mantar+Jaipur,Astronomical observatory of Jaipur,Daulat Singh Rajawat,2010,1,eng,'9788188644094,/works/OL16011842W,,,0.0001,1.7711,0.8105,0.3381,0.0009,2.9206
+25-04-2026 16:08,/tmp/gradio/bcff6d4add02f5c1c8cf3503d34cea87af842f70dd29124ccce20d8e316f1311/jantarmantar.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jantar Mantar, Jaipur
+Confidence: High
+Reason: The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.","Jantar Mantar, Jaipur",High,The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.,Jantar Mantar Jaipur,https://openlibrary.org/search.json?q=Jantar+Mantar+Jaipur,Jantar-mantars of India,Prahlad Singh,1986,2,eng,N/A,/works/OL4759097W,,,0.0001,1.7711,0.8105,0.3381,0.0009,2.9206
+25-04-2026 16:08,/tmp/gradio/bcff6d4add02f5c1c8cf3503d34cea87af842f70dd29124ccce20d8e316f1311/jantarmantar.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jantar Mantar, Jaipur
+Confidence: High
+Reason: The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.","Jantar Mantar, Jaipur",High,The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.,Jantar Mantar Jaipur,https://openlibrary.org/search.json?q=Jantar+Mantar+Jaipur,Jantar Mantar,Simon Chaput,2016,1,eng,'9781590054451,/works/OL32490214W,,,0.0001,1.7711,0.8105,0.3381,0.0009,2.9206
+25-04-2026 16:08,/tmp/gradio/bcff6d4add02f5c1c8cf3503d34cea87af842f70dd29124ccce20d8e316f1311/jantarmantar.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jantar Mantar, Jaipur
+Confidence: High
+Reason: The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.","Jantar Mantar, Jaipur",High,The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.,Jantar Mantar Jaipur,https://openlibrary.org/search.json?q=Jantar+Mantar+Jaipur,Jantar Mantar,Virendra Nath Sharma,2008,2,eng,'9788129113757,/works/OL3215092W,,,0.0001,1.7711,0.8105,0.3381,0.0009,2.9206
+25-04-2026 16:08,/tmp/gradio/bcff6d4add02f5c1c8cf3503d34cea87af842f70dd29124ccce20d8e316f1311/jantarmantar.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Jantar Mantar, Jaipur
+Confidence: High
+Reason: The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.","Jantar Mantar, Jaipur",High,The image shows the distinctive astronomical observatory structures associated with Jantar Mantar in Jaipur.,Jantar Mantar Jaipur,https://openlibrary.org/search.json?q=Jantar+Mantar+Jaipur,Astronomical observatory of Jaipur,Daulat Singh Rajawat,2005,1,eng,N/A,/works/OL4262844W,,,0.0001,1.7711,0.8105,0.3381,0.0009,2.9206
+25-04-2026 16:09,/tmp/gradio/7500eb30862ae66db30df08c531d19a60d4c5450b4fb8e38d81b068921417957/jcbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Alexander Graham Bell
+Confidence: High
+Reason: The image shows the well-known inventor with his characteristic mustache and laboratory equipment.",Alexander Graham Bell,High,The image shows the well-known inventor with his characteristic mustache and laboratory equipment.,Alexander Graham Bell,https://openlibrary.org/search.json?q=Alexander+Graham+Bell,Alexander Graham Bell,Joseph Eleyinte,2018,1,eng,'9781985258099,/works/OL40991051W,,,0.0001,1.2394,1.3653,0.5309,0.0009,3.1365
+25-04-2026 16:09,/tmp/gradio/7500eb30862ae66db30df08c531d19a60d4c5450b4fb8e38d81b068921417957/jcbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Alexander Graham Bell
+Confidence: High
+Reason: The image shows the well-known inventor with his characteristic mustache and laboratory equipment.",Alexander Graham Bell,High,The image shows the well-known inventor with his characteristic mustache and laboratory equipment.,Alexander Graham Bell,https://openlibrary.org/search.json?q=Alexander+Graham+Bell,Alexander Graham Bell,Wil Mara,1800,3,eng,'9780613594448,/works/OL1854080W,,,0.0001,1.2394,1.3653,0.5309,0.0009,3.1365
+25-04-2026 16:09,/tmp/gradio/7500eb30862ae66db30df08c531d19a60d4c5450b4fb8e38d81b068921417957/jcbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Alexander Graham Bell
+Confidence: High
+Reason: The image shows the well-known inventor with his characteristic mustache and laboratory equipment.",Alexander Graham Bell,High,The image shows the well-known inventor with his characteristic mustache and laboratory equipment.,Alexander Graham Bell,https://openlibrary.org/search.json?q=Alexander+Graham+Bell,Alexander Graham Bell,Lola M. Schaefer,2000,6,eng,'9780736833783,/works/OL15278067W,,,0.0001,1.2394,1.3653,0.5309,0.0009,3.1365
+25-04-2026 16:09,/tmp/gradio/7500eb30862ae66db30df08c531d19a60d4c5450b4fb8e38d81b068921417957/jcbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Alexander Graham Bell
+Confidence: High
+Reason: The image shows the well-known inventor with his characteristic mustache and laboratory equipment.",Alexander Graham Bell,High,The image shows the well-known inventor with his characteristic mustache and laboratory equipment.,Alexander Graham Bell,https://openlibrary.org/search.json?q=Alexander+Graham+Bell,Who Was Alexandar Graham Bell?,"Bonnie Bader, David Groff",2013,9,"spa, eng",'9789759999896,/works/OL17342642W,,,0.0001,1.2394,1.3653,0.5309,0.0009,3.1365
+25-04-2026 16:09,/tmp/gradio/7500eb30862ae66db30df08c531d19a60d4c5450b4fb8e38d81b068921417957/jcbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Alexander Graham Bell
+Confidence: High
+Reason: The image shows the well-known inventor with his characteristic mustache and laboratory equipment.",Alexander Graham Bell,High,The image shows the well-known inventor with his characteristic mustache and laboratory equipment.,Alexander Graham Bell,https://openlibrary.org/search.json?q=Alexander+Graham+Bell,Alexander Graham Bell,Barbara Kramer,2015,3,eng,'1426319363,/works/OL21089013W,,,0.0001,1.2394,1.3653,0.5309,0.0009,3.1365
+25-04-2026 16:10,/tmp/gradio/9b4a9356585e365b9efc5429a9d48e59f22f4aa8362ba88f7dd90b0c267bd568/jcbosefront.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Muhammad Ali Jinnah
+Confidence: High
+Reason: The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.",Muhammad Ali Jinnah,High,The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.,Muhammad Ali Jinnah,https://openlibrary.org/search.json?q=Muhammad+Ali+Jinnah,Muḥammad 'Alī Jinnāḥ,Kanji Dwarkadas,1970,1,urd,N/A,/works/OL342198W,,,0.0001,0.9655,0.7137,0.5748,0.0008,2.255
+25-04-2026 16:10,/tmp/gradio/9b4a9356585e365b9efc5429a9d48e59f22f4aa8362ba88f7dd90b0c267bd568/jcbosefront.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Muhammad Ali Jinnah
+Confidence: High
+Reason: The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.",Muhammad Ali Jinnah,High,The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.,Muhammad Ali Jinnah,https://openlibrary.org/search.json?q=Muhammad+Ali+Jinnah,Millat kā pāsbān hai Muḥammad ʻAlī Jinnāḥ,"K̲h̲vurshīd Rabbānī, Akādmī Adabiyāt-i Pākistān",2006,1,urd,'9789694722030,/works/OL24076363W,,,0.0001,0.9655,0.7137,0.5748,0.0008,2.255
+25-04-2026 16:10,/tmp/gradio/9b4a9356585e365b9efc5429a9d48e59f22f4aa8362ba88f7dd90b0c267bd568/jcbosefront.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Muhammad Ali Jinnah
+Confidence: High
+Reason: The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.",Muhammad Ali Jinnah,High,The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.,Muhammad Ali Jinnah,https://openlibrary.org/search.json?q=Muhammad+Ali+Jinnah,Bānī-i Pākistān Muḥammad ʻAlī Jinnāh,Abū Salmān Shāhjahānpūrī,2013,1,urd,N/A,/works/OL23409633W,,,0.0001,0.9655,0.7137,0.5748,0.0008,2.255
+25-04-2026 16:10,/tmp/gradio/9b4a9356585e365b9efc5429a9d48e59f22f4aa8362ba88f7dd90b0c267bd568/jcbosefront.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Muhammad Ali Jinnah
+Confidence: High
+Reason: The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.",Muhammad Ali Jinnah,High,The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.,Muhammad Ali Jinnah,https://openlibrary.org/search.json?q=Muhammad+Ali+Jinnah,Qāʼid-i Aʻẓam Muḥammad ʻAlī Jinnāh,Fārūq Argalī,1972,1,urd,N/A,/works/OL303161W,,,0.0001,0.9655,0.7137,0.5748,0.0008,2.255
+25-04-2026 16:10,/tmp/gradio/9b4a9356585e365b9efc5429a9d48e59f22f4aa8362ba88f7dd90b0c267bd568/jcbosefront.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Muhammad Ali Jinnah
+Confidence: High
+Reason: The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.",Muhammad Ali Jinnah,High,The image appears to be a well-known portrait of Muhammad Ali Jinnah in formal attire.,Muhammad Ali Jinnah,https://openlibrary.org/search.json?q=Muhammad+Ali+Jinnah,"Muḥammad ʻAlī Jinnāḥ, bānī Bākistān",Iḥsān Ḥaqqī,1987,1,ara,N/A,/works/OL1604005W,,,0.0001,0.9655,0.7137,0.5748,0.0008,2.255
+25-04-2026 16:11,/tmp/gradio/a6ff30b434fc5794bff726c68d28bfae084319c48eb323e39ecf73f9694ab9ae/kailasa.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kailasa Temple, Ellora
+Confidence: Medium
+Reason: The image shows the famous rock-cut temple complex carved into a hillside, matching the Kailasa Temple at Ellora.","Kailasa Temple, Ellora",Medium,"The image shows the famous rock-cut temple complex carved into a hillside, matching the Kailasa Temple at Ellora.","Kailasa Temple, Ellora",https://openlibrary.org/search.json?q=Kailasa+Temple%2C+Ellora,Stylistic sources and relationships of the Kailāsa temple at Ellora,Doris Clark Chatham,1978,1,eng,N/A,/works/OL31599342W,,,0.0001,0.9784,1.0068,1.1521,0.0009,3.1382
+25-04-2026 16:11,/tmp/gradio/a6ff30b434fc5794bff726c68d28bfae084319c48eb323e39ecf73f9694ab9ae/kailasa.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kailasa Temple, Ellora
+Confidence: Medium
+Reason: The image shows the famous rock-cut temple complex carved into a hillside, matching the Kailasa Temple at Ellora.","Kailasa Temple, Ellora",Medium,"The image shows the famous rock-cut temple complex carved into a hillside, matching the Kailasa Temple at Ellora.","Kailasa Temple, Ellora",https://openlibrary.org/search.json?q=Kailasa+Temple%2C+Ellora,Stylistic sources and relationships of the Kailāsa temple at Ellora,Doris Clark Chatham,1976,1,eng,N/A,/works/OL11218666W,,,0.0001,0.9784,1.0068,1.1521,0.0009,3.1382
+25-04-2026 16:11,/tmp/gradio/a6ff30b434fc5794bff726c68d28bfae084319c48eb323e39ecf73f9694ab9ae/kailasa.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kailasa Temple, Ellora
+Confidence: Medium
+Reason: The image shows the famous rock-cut temple complex carved into a hillside, matching the Kailasa Temple at Ellora.","Kailasa Temple, Ellora",Medium,"The image shows the famous rock-cut temple complex carved into a hillside, matching the Kailasa Temple at Ellora.","Kailasa Temple, Ellora",https://openlibrary.org/search.json?q=Kailasa+Temple%2C+Ellora,Verūḷacē Kailāsa leṇē,Shankar Ganesh Dawne,1966,1,mar,N/A,/works/OL364828W,,,0.0001,0.9784,1.0068,1.1521,0.0009,3.1382
+25-04-2026 16:11,/tmp/gradio/a6ff30b434fc5794bff726c68d28bfae084319c48eb323e39ecf73f9694ab9ae/kailasa.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kailasa Temple, Ellora
+Confidence: Medium
+Reason: The image shows the famous rock-cut temple complex carved into a hillside, matching the Kailasa Temple at Ellora.","Kailasa Temple, Ellora",Medium,"The image shows the famous rock-cut temple complex carved into a hillside, matching the Kailasa Temple at Ellora.","Kailasa Temple, Ellora",https://openlibrary.org/search.json?q=Kailasa+Temple%2C+Ellora,"Masterpieces of Rashtrakuta art, the Kailas",Madhukar Keshav Dhavalikar,1983,1,eng,N/A,/works/OL348872W,,,0.0001,0.9784,1.0068,1.1521,0.0009,3.1382
+25-04-2026 16:11,/tmp/gradio/08156aff9149cdb3c6f4a688c2690fa70def748b7f872fb63f1f8ba5624f5c1d/kathakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakaḷi,G. Krishna Pillai,1956,1,mal,N/A,/works/OL6895701W,,,0.0001,0.9836,0.706,1.79,0.0011,3.4809
+25-04-2026 16:11,/tmp/gradio/08156aff9149cdb3c6f4a688c2690fa70def748b7f872fb63f1f8ba5624f5c1d/kathakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakaḷi,V. K. N.,1969,1,mal,N/A,/works/OL11139606W,,,0.0001,0.9836,0.706,1.79,0.0011,3.4809
+25-04-2026 16:11,/tmp/gradio/08156aff9149cdb3c6f4a688c2690fa70def748b7f872fb63f1f8ba5624f5c1d/kathakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakali,Ramchandra Dev,1990,1,hin,N/A,/works/OL12433916W,,,0.0001,0.9836,0.706,1.79,0.0011,3.4809
+25-04-2026 16:11,/tmp/gradio/08156aff9149cdb3c6f4a688c2690fa70def748b7f872fb63f1f8ba5624f5c1d/kathakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakaḷi āsvādanaṃ,Unknown,2008,1,mal,N/A,/works/OL18597925W,,,0.0001,0.9836,0.706,1.79,0.0011,3.4809
+25-04-2026 16:11,/tmp/gradio/08156aff9149cdb3c6f4a688c2690fa70def748b7f872fb63f1f8ba5624f5c1d/kathakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kathakali
+Confidence: High
+Reason: The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.",Kathakali,High,The image shows performers in elaborate traditional makeup and costumes characteristic of Kathakali dance-drama.,Kathakali,https://openlibrary.org/search.json?q=Kathakali,Kathakaḷi,Vi. Ke. En.,1969,1,mal,N/A,/works/OL320917W,,,0.0001,0.9836,0.706,1.79,0.0011,3.4809
+25-04-2026 16:11,/tmp/gradio/9ad76e0fe3d6342cc6ae6856d62a0b1b6fb0e74932c965d972c1f26611823f53/khajuraho.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Khajuraho Group of Monuments
+Confidence: High
+Reason: The image shows the distinctive carved temple facades associated with the Khajuraho temples in India.",Khajuraho Group of Monuments,High,The image shows the distinctive carved temple facades associated with the Khajuraho temples in India.,Khajuraho Group of Monuments,https://openlibrary.org/search.json?q=Khajuraho+Group+of+Monuments,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No books found for this search query.,,0.0001,1.1876,1.1944,0.5564,0.0008,2.9394
+25-04-2026 16:11,/tmp/gradio/a5c106855dfd5fc1f2174cdd665c1e8c5e17cd72f77447a97b1b4dd738be2b4f/khokho.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kabaddi
+Confidence: High
+Reason: The image shows players in a kabaddi match on a dirt court.",Kabaddi,High,The image shows players in a kabaddi match on a dirt court.,Kabaddi,https://openlibrary.org/search.json?q=Kabaddi,Kabaḍḍī,Narendra Acyuta Dābholakara,1980,1,mar,N/A,/works/OL4425035W,,,0.0001,1.032,0.6782,0.7587,0.0009,2.4699
+25-04-2026 16:11,/tmp/gradio/a5c106855dfd5fc1f2174cdd665c1e8c5e17cd72f77447a97b1b4dd738be2b4f/khokho.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kabaddi
+Confidence: High
+Reason: The image shows players in a kabaddi match on a dirt court.",Kabaddi,High,The image shows players in a kabaddi match on a dirt court.,Kabaddi,https://openlibrary.org/search.json?q=Kabaddi,Life Is Better When You Play Kabaddi,Kabaddi,2019,2,eng,'9781077544802,/works/OL30099909W,,,0.0001,1.032,0.6782,0.7587,0.0009,2.4699
+25-04-2026 16:11,/tmp/gradio/a5c106855dfd5fc1f2174cdd665c1e8c5e17cd72f77447a97b1b4dd738be2b4f/khokho.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kabaddi
+Confidence: High
+Reason: The image shows players in a kabaddi match on a dirt court.",Kabaddi,High,The image shows players in a kabaddi match on a dirt court.,Kabaddi,https://openlibrary.org/search.json?q=Kabaddi,Kabaddi,Yugesh Walia,1991,1,eng,N/A,/works/OL13074161W,,,0.0001,1.032,0.6782,0.7587,0.0009,2.4699
+25-04-2026 16:11,/tmp/gradio/a5c106855dfd5fc1f2174cdd665c1e8c5e17cd72f77447a97b1b4dd738be2b4f/khokho.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kabaddi
+Confidence: High
+Reason: The image shows players in a kabaddi match on a dirt court.",Kabaddi,High,The image shows players in a kabaddi match on a dirt court.,Kabaddi,https://openlibrary.org/search.json?q=Kabaddi,Kabaddi Because Adulting Is Hard,Kabaddi,2019,1,eng,'1077597649,/works/OL30058877W,,,0.0001,1.032,0.6782,0.7587,0.0009,2.4699
+25-04-2026 16:11,/tmp/gradio/a5c106855dfd5fc1f2174cdd665c1e8c5e17cd72f77447a97b1b4dd738be2b4f/khokho.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kabaddi
+Confidence: High
+Reason: The image shows players in a kabaddi match on a dirt court.",Kabaddi,High,The image shows players in a kabaddi match on a dirt court.,Kabaddi,https://openlibrary.org/search.json?q=Kabaddi,Karoṛāṃ dī kabaḍḍī,Sukhadarashana Cahila,2010,1,pan,'9789380085807,/works/OL27955999W,,,0.0001,1.032,0.6782,0.7587,0.0009,2.4699
+25-04-2026 16:12,/tmp/gradio/7c6a7c533a08c22d615b5a67532d8e6e69ed24ac2baee3943145ca3fb985c959/koranarktemple.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Brihadeeswarar Temple
+Confidence: High
+Reason: The image shows the distinctive large Dravidian temple structure with a towering vimana, matching the Brihadeeswarar Temple.",Brihadeeswarar Temple,High,"The image shows the distinctive large Dravidian temple structure with a towering vimana, matching the Brihadeeswarar Temple.",Brihadeeswarar Temple,https://openlibrary.org/search.json?q=Brihadeeswarar+Temple,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No books found for this search query.,,0.0001,1.2615,0.9102,3.9646,0.0006,6.1371
+25-04-2026 16:13,/tmp/gradio/d8845d0a73f75073bc799f900e6b24b64c0a220817bcebb3ece266190d608262/krishna.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna playing a flute with cows around him.",Krishna,High,The image depicts the Hindu deity Krishna playing a flute with cows around him.,Krishna,https://openlibrary.org/search.json?q=Krishna,Meghadūta,Kālidāsa,1813,114,"lat, eng, ger, hin, raj",'8187396431,/works/OL293343W,,,0.0001,0.9694,1.4328,0.4447,0.0009,2.8478
+25-04-2026 16:13,/tmp/gradio/d8845d0a73f75073bc799f900e6b24b64c0a220817bcebb3ece266190d608262/krishna.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna playing a flute with cows around him.",Krishna,High,The image depicts the Hindu deity Krishna playing a flute with cows around him.,Krishna,https://openlibrary.org/search.json?q=Krishna,The Krishna Key,Ashwin Sanghi,2012,3,eng,'938261804X,/works/OL17092721W,,,0.0001,0.9694,1.4328,0.4447,0.0009,2.8478
+25-04-2026 16:13,/tmp/gradio/d8845d0a73f75073bc799f900e6b24b64c0a220817bcebb3ece266190d608262/krishna.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna playing a flute with cows around him.",Krishna,High,The image depicts the Hindu deity Krishna playing a flute with cows around him.,Krishna,https://openlibrary.org/search.json?q=Krishna,The Abhijñānaśākuntalam of Kālidāsa,Kālidāsa,1789,134,"pra, fin, mal, dan, snd",'9781406918618,/works/OL293317W,,,0.0001,0.9694,1.4328,0.4447,0.0009,2.8478
+25-04-2026 16:13,/tmp/gradio/d8845d0a73f75073bc799f900e6b24b64c0a220817bcebb3ece266190d608262/krishna.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna playing a flute with cows around him.",Krishna,High,The image depicts the Hindu deity Krishna playing a flute with cows around him.,Krishna,https://openlibrary.org/search.json?q=Krishna,Bhagavad-Gita,Vyasa,1944,37,"hin, dut, eng, san",'0874810434,/works/OL264706W,,,0.0001,0.9694,1.4328,0.4447,0.0009,2.8478
+25-04-2026 16:13,/tmp/gradio/d8845d0a73f75073bc799f900e6b24b64c0a220817bcebb3ece266190d608262/krishna.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna playing a flute with cows around him.",Krishna,High,The image depicts the Hindu deity Krishna playing a flute with cows around him.,Krishna,https://openlibrary.org/search.json?q=Krishna,2020-2021,Love Write,2020,135,"fre, eng",'9798650200987,/works/OL27246073W,,,0.0001,0.9694,1.4328,0.4447,0.0009,2.8478
+25-04-2026 16:13,/tmp/gradio/77cde024b7863d2ee4a40a4db10b5f690c05ff189b7aeb8b6ab4864db7fae098/krishna2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.",Krishna,High,The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.,Krishna,https://openlibrary.org/search.json?q=Krishna,Meghadūta,Kālidāsa,1813,114,"lat, eng, ger, hin, raj",'8187396431,/works/OL293343W,,,0.0002,1.2396,1.1333,0.2701,0.0009,2.644
+25-04-2026 16:13,/tmp/gradio/77cde024b7863d2ee4a40a4db10b5f690c05ff189b7aeb8b6ab4864db7fae098/krishna2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.",Krishna,High,The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.,Krishna,https://openlibrary.org/search.json?q=Krishna,The Krishna Key,Ashwin Sanghi,2012,3,eng,'938261804X,/works/OL17092721W,,,0.0002,1.2396,1.1333,0.2701,0.0009,2.644
+25-04-2026 16:13,/tmp/gradio/77cde024b7863d2ee4a40a4db10b5f690c05ff189b7aeb8b6ab4864db7fae098/krishna2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.",Krishna,High,The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.,Krishna,https://openlibrary.org/search.json?q=Krishna,The Abhijñānaśākuntalam of Kālidāsa,Kālidāsa,1789,134,"pra, fin, mal, dan, snd",'9781406918618,/works/OL293317W,,,0.0002,1.2396,1.1333,0.2701,0.0009,2.644
+25-04-2026 16:13,/tmp/gradio/77cde024b7863d2ee4a40a4db10b5f690c05ff189b7aeb8b6ab4864db7fae098/krishna2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.",Krishna,High,The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.,Krishna,https://openlibrary.org/search.json?q=Krishna,Bhagavad-Gita,Vyasa,1944,37,"hin, dut, eng, san",'0874810434,/works/OL264706W,,,0.0002,1.2396,1.1333,0.2701,0.0009,2.644
+25-04-2026 16:13,/tmp/gradio/77cde024b7863d2ee4a40a4db10b5f690c05ff189b7aeb8b6ab4864db7fae098/krishna2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Krishna
+Confidence: High
+Reason: The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.",Krishna,High,The image depicts the Hindu deity Krishna in a divine scene with a crown and flute-like pose.,Krishna,https://openlibrary.org/search.json?q=Krishna,2020-2021,Love Write,2020,135,"fre, eng",'9798650200987,/works/OL27246073W,,,0.0002,1.2396,1.1333,0.2701,0.0009,2.644
+25-04-2026 16:13,/tmp/gradio/55218bb9e085368d318f45a1e7d5d203b2e6747008a68fdc92f1949bb919f162/krishna3.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Baby Krishna
+Confidence: High
+Reason: The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.",Baby Krishna,High,The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.,Baby Krishna,https://openlibrary.org/search.json?q=Baby+Krishna,Baby Krishna,Netherlands. Adviescommissie Kleine Letteren,1991,1,"eng, dut",N/A,/works/OL38619130W,,,0.0001,1.488,0.8467,0.3536,0.0023,2.6906
+25-04-2026 16:13,/tmp/gradio/55218bb9e085368d318f45a1e7d5d203b2e6747008a68fdc92f1949bb919f162/krishna3.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Baby Krishna
+Confidence: High
+Reason: The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.",Baby Krishna,High,The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.,Baby Krishna,https://openlibrary.org/search.json?q=Baby+Krishna,"Wake up, baby Krishna!",Shashi Karve,2009,1,eng,N/A,/works/OL15912659W,,,0.0001,1.488,0.8467,0.3536,0.0023,2.6906
+25-04-2026 16:13,/tmp/gradio/55218bb9e085368d318f45a1e7d5d203b2e6747008a68fdc92f1949bb919f162/krishna3.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Baby Krishna
+Confidence: High
+Reason: The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.",Baby Krishna,High,The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.,Baby Krishna,https://openlibrary.org/search.json?q=Baby+Krishna,"Baby Krishna, infant Christ",Kristin Johnston Largen,2011,1,eng,'9781570759321,/works/OL15921218W,,,0.0001,1.488,0.8467,0.3536,0.0023,2.6906
+25-04-2026 16:13,/tmp/gradio/55218bb9e085368d318f45a1e7d5d203b2e6747008a68fdc92f1949bb919f162/krishna3.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Baby Krishna
+Confidence: High
+Reason: The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.",Baby Krishna,High,The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.,Baby Krishna,https://openlibrary.org/search.json?q=Baby+Krishna,Hello Baby : Baby's First Years,Krishna Brown,2021,2,eng,'9781312908994,/works/OL26824220W,,,0.0001,1.488,0.8467,0.3536,0.0023,2.6906
+25-04-2026 16:13,/tmp/gradio/55218bb9e085368d318f45a1e7d5d203b2e6747008a68fdc92f1949bb919f162/krishna3.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Baby Krishna
+Confidence: High
+Reason: The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.",Baby Krishna,High,The image depicts the child form of Krishna with a peacock feather crown and traditional ornaments.,Baby Krishna,https://openlibrary.org/search.json?q=Baby+Krishna,Hello Baby,Krishna Brown,2021,1,eng,'1667106465,/works/OL29151730W,,,0.0001,1.488,0.8467,0.3536,0.0023,2.6906
+25-04-2026 16:13,/tmp/gradio/ce827f3e7686dc521bb5d693c0d8b3dc9f9038eee84f0252f05b8f2d4d62fdc9/kumbhmela2012.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Great Wall of China
+Confidence: Medium
+Reason: The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,Medium,"The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,https://openlibrary.org/search.json?q=Great+Wall+of+China,The great wall of China,William Edgar Geil,1909,11,eng,'9780342816590,/works/OL7716844W,,,0.0001,0.9719,0.8778,0.6069,0.0008,2.4576
+25-04-2026 16:13,/tmp/gradio/ce827f3e7686dc521bb5d693c0d8b3dc9f9038eee84f0252f05b8f2d4d62fdc9/kumbhmela2012.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Great Wall of China
+Confidence: Medium
+Reason: The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,Medium,"The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,https://openlibrary.org/search.json?q=Great+Wall+of+China,The Great Wall of China,Rebecca Stanborough,2016,8,eng,'1474711839,/works/OL20031346W,,,0.0001,0.9719,0.8778,0.6069,0.0008,2.4576
+25-04-2026 16:13,/tmp/gradio/ce827f3e7686dc521bb5d693c0d8b3dc9f9038eee84f0252f05b8f2d4d62fdc9/kumbhmela2012.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Great Wall of China
+Confidence: Medium
+Reason: The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,Medium,"The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,https://openlibrary.org/search.json?q=Great+Wall+of+China,The Great Wall of China,Joseph R. O'Neill,2009,3,eng,'9781604538694,/works/OL12006985W,,,0.0001,0.9719,0.8778,0.6069,0.0008,2.4576
+25-04-2026 16:13,/tmp/gradio/ce827f3e7686dc521bb5d693c0d8b3dc9f9038eee84f0252f05b8f2d4d62fdc9/kumbhmela2012.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Great Wall of China
+Confidence: Medium
+Reason: The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,Medium,"The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,https://openlibrary.org/search.json?q=Great+Wall+of+China,The great wall of China,Else Waldron,1969,1,eng,N/A,/works/OL7088149W,,,0.0001,0.9719,0.8778,0.6069,0.0008,2.4576
+25-04-2026 16:13,/tmp/gradio/ce827f3e7686dc521bb5d693c0d8b3dc9f9038eee84f0252f05b8f2d4d62fdc9/kumbhmela2012.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Great Wall of China
+Confidence: Medium
+Reason: The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,Medium,"The image shows a long fortified wall with watchtowers stretching across a mountainous landscape, matching the Great Wall.",Great Wall of China,https://openlibrary.org/search.json?q=Great+Wall+of+China,Great Wall of China,Christine Webster,2007,3,eng,'1590367243,/works/OL5713196W,,,0.0001,0.9719,0.8778,0.6069,0.0008,2.4576
+25-04-2026 16:15,/tmp/gradio/738ff7ef78882587d4be5795a3a4137b6bd152fb94abea562d270731ddb5e872/kumbhmela2025.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kumbh Mela
+Confidence: Medium
+Reason: The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,Medium,"The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,https://openlibrary.org/search.json?q=Kumbh+Mela,Kumbh Mela,Valerio Berdini,2010,2,eng,'9781320299558,/works/OL38230336W,,,0.0001,1.1027,0.7877,0.6025,0.0008,2.4938
+25-04-2026 16:15,/tmp/gradio/738ff7ef78882587d4be5795a3a4137b6bd152fb94abea562d270731ddb5e872/kumbhmela2025.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kumbh Mela
+Confidence: Medium
+Reason: The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,Medium,"The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,https://openlibrary.org/search.json?q=Kumbh+Mela,Kumbh Mela,Unknown,2015,1,eng,'9385285076,/works/OL22900532W,,,0.0001,1.1027,0.7877,0.6025,0.0008,2.4938
+25-04-2026 16:15,/tmp/gradio/738ff7ef78882587d4be5795a3a4137b6bd152fb94abea562d270731ddb5e872/kumbhmela2025.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kumbh Mela
+Confidence: Medium
+Reason: The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,Medium,"The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,https://openlibrary.org/search.json?q=Kumbh+Mela,Kumbh Mela,Ashim Ghosh,2001,1,eng,'9788171675043,/works/OL7828421W,,,0.0001,1.1027,0.7877,0.6025,0.0008,2.4938
+25-04-2026 16:15,/tmp/gradio/738ff7ef78882587d4be5795a3a4137b6bd152fb94abea562d270731ddb5e872/kumbhmela2025.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kumbh Mela
+Confidence: Medium
+Reason: The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,Medium,"The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,https://openlibrary.org/search.json?q=Kumbh+Mela,Kumbh Mela,Unknown,2010,1,eng,N/A,/works/OL15474654W,,,0.0001,1.1027,0.7877,0.6025,0.0008,2.4938
+25-04-2026 16:15,/tmp/gradio/738ff7ef78882587d4be5795a3a4137b6bd152fb94abea562d270731ddb5e872/kumbhmela2025.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kumbh Mela
+Confidence: Medium
+Reason: The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,Medium,"The image shows a massive religious gathering on a riverbank, which is characteristic of the Kumbh Mela.",Kumbh Mela,https://openlibrary.org/search.json?q=Kumbh+Mela,Kumbh Mela,Anita Bhatnagar Jain,2021,1,tel,N/A,/works/OL43286705W,,,0.0001,1.1027,0.7877,0.6025,0.0008,2.4938
+25-04-2026 16:15,/tmp/gradio/ab33593f461f0b65c2f45107f7fe890518b0b59ac4360952a5f50443e8b53a17/maadurga.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga Puja
+Confidence: High
+Reason: The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,High,"The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,https://openlibrary.org/search.json?q=Durga+Puja,Durga Puja,Sauresh Ray,1990,1,eng,'9780080363516,/works/OL9256997W,,,0.0001,1.74,0.7301,0.368,0.0009,2.8391
+25-04-2026 16:15,/tmp/gradio/ab33593f461f0b65c2f45107f7fe890518b0b59ac4360952a5f50443e8b53a17/maadurga.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga Puja
+Confidence: High
+Reason: The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,High,"The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,https://openlibrary.org/search.json?q=Durga+Puja,Durgā pūjā,Bimala Candra Datta,1986,1,ben,N/A,/works/OL3432967W,,,0.0001,1.74,0.7301,0.368,0.0009,2.8391
+25-04-2026 16:15,/tmp/gradio/ab33593f461f0b65c2f45107f7fe890518b0b59ac4360952a5f50443e8b53a17/maadurga.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga Puja
+Confidence: High
+Reason: The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,High,"The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,https://openlibrary.org/search.json?q=Durga+Puja,A fascinating festivity Durga puja,Shyamalkanti Chakravarti,2006,1,eng,'8180460304,/works/OL1760180W,,,0.0001,1.74,0.7301,0.368,0.0009,2.8391
+25-04-2026 16:15,/tmp/gradio/ab33593f461f0b65c2f45107f7fe890518b0b59ac4360952a5f50443e8b53a17/maadurga.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga Puja
+Confidence: High
+Reason: The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,High,"The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,https://openlibrary.org/search.json?q=Durga+Puja,Durga Puja,Pratapachandra Ghosha,1871,4,eng,'0343875411,/works/OL6717646W,,,0.0001,1.74,0.7301,0.368,0.0009,2.8391
+25-04-2026 16:15,/tmp/gradio/ab33593f461f0b65c2f45107f7fe890518b0b59ac4360952a5f50443e8b53a17/maadurga.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga Puja
+Confidence: High
+Reason: The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,High,"The image shows a decorated idol of the Hindu goddess Durga with multiple arms and attendant figures, typical of Durga Puja.",Durga Puja,https://openlibrary.org/search.json?q=Durga+Puja,Durga Puja,P.C. Ghosha,1998,1,,'8173862060,/works/OL10233067W,,,0.0001,1.74,0.7301,0.368,0.0009,2.8391
+25-04-2026 16:15,/tmp/gradio/846f8db9d9d1bc7561dd32be83335991a35924c46d94403a6ce992d61965975f/maadurga1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga
+Confidence: High
+Reason: The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,High,"The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,https://openlibrary.org/search.json?q=Durga,India From Curzon to Nehru and After,Durga Das,1969,4,eng,'817223385X,/works/OL6842843W,,,0.0002,1.6584,1.3117,0.2973,0.0009,3.2684
+25-04-2026 16:15,/tmp/gradio/846f8db9d9d1bc7561dd32be83335991a35924c46d94403a6ce992d61965975f/maadurga1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga
+Confidence: High
+Reason: The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,High,"The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,https://openlibrary.org/search.json?q=Durga,Constitution,India,1947,39,"hin, eng, nep, urd",'0876922000,/works/OL296280W,,,0.0002,1.6584,1.3117,0.2973,0.0009,3.2684
+25-04-2026 16:15,/tmp/gradio/846f8db9d9d1bc7561dd32be83335991a35924c46d94403a6ce992d61965975f/maadurga1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga
+Confidence: High
+Reason: The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,High,"The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,https://openlibrary.org/search.json?q=Durga,Introduction to the Constitution of India,Durga Das Basu,1960,6,eng,'9788180385599,/works/OL96569W,,,0.0002,1.6584,1.3117,0.2973,0.0009,3.2684
+25-04-2026 16:15,/tmp/gradio/846f8db9d9d1bc7561dd32be83335991a35924c46d94403a6ce992d61965975f/maadurga1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga
+Confidence: High
+Reason: The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,High,"The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,https://openlibrary.org/search.json?q=Durga,Goddess Durga,"Daljeet, Jain, P. C. (Writer on art)",1998,1,eng,N/A,/works/OL23741039W,,,0.0002,1.6584,1.3117,0.2973,0.0009,3.2684
+25-04-2026 16:15,/tmp/gradio/846f8db9d9d1bc7561dd32be83335991a35924c46d94403a6ce992d61965975f/maadurga1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Durga
+Confidence: High
+Reason: The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,High,"The image shows the Hindu goddess with multiple arms and a lion, a classic depiction of Durga.",Durga,https://openlibrary.org/search.json?q=Durga,India from Curzon to Nehru & after,Durga Das,1969,2,eng,'0002113511,/works/OL13568905W,,,0.0002,1.6584,1.3117,0.2973,0.0009,3.2684
+25-04-2026 16:15,/tmp/gradio/551a667875cb5c0562c4e337f73f0a18d4d91930f5a3ac1ad553e5c5d6c42136/maakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kali
+Confidence: High
+Reason: The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali,High,"The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali (Hindu deity),https://openlibrary.org/search.json?q=Kali+%28Hindu+deity%29,Song of Kali,Dan Simmons,1985,16,"eng, spa, fre",'9788440642370,/works/OL1963276W,,,0.0001,0.9124,0.8629,1.2455,0.0009,3.0219
+25-04-2026 16:15,/tmp/gradio/551a667875cb5c0562c4e337f73f0a18d4d91930f5a3ac1ad553e5c5d6c42136/maakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kali
+Confidence: High
+Reason: The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali,High,"The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali (Hindu deity),https://openlibrary.org/search.json?q=Kali+%28Hindu+deity%29,Kali,Ajit Mookerjee,1988,5,"fre, eng",'9780500275054,/works/OL349185W,,,0.0001,0.9124,0.8629,1.2455,0.0009,3.0219
+25-04-2026 16:15,/tmp/gradio/551a667875cb5c0562c4e337f73f0a18d4d91930f5a3ac1ad553e5c5d6c42136/maakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kali
+Confidence: High
+Reason: The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali,High,"The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali (Hindu deity),https://openlibrary.org/search.json?q=Kali+%28Hindu+deity%29,Kali,Elizabeth U. Harding,1993,3,eng,'9780892540259,/works/OL3918945W,,,0.0001,0.9124,0.8629,1.2455,0.0009,3.0219
+25-04-2026 16:15,/tmp/gradio/551a667875cb5c0562c4e337f73f0a18d4d91930f5a3ac1ad553e5c5d6c42136/maakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kali
+Confidence: High
+Reason: The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali,High,"The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali (Hindu deity),https://openlibrary.org/search.json?q=Kali+%28Hindu+deity%29,Kali's odiyya,Amarananda Bhairavan,2000,1,eng,'0892540486,/works/OL221322W,,,0.0001,0.9124,0.8629,1.2455,0.0009,3.0219
+25-04-2026 16:15,/tmp/gradio/551a667875cb5c0562c4e337f73f0a18d4d91930f5a3ac1ad553e5c5d6c42136/maakali.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Kali
+Confidence: High
+Reason: The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali,High,"The image depicts the Hindu goddess Kali with dark skin, multiple arms, and a garland of skulls.",Kali (Hindu deity),https://openlibrary.org/search.json?q=Kali+%28Hindu+deity%29,Śrī Kāḷī sahasranāmastōtram ...,Unknown,1973,1,san,N/A,/works/OL22599290W,,,0.0001,0.9124,0.8629,1.2455,0.0009,3.0219
+25-04-2026 16:15,/tmp/gradio/91762f1eeabc2b2e0132ac7acf84c334c062e65c5ba60e0c337595b0e9de6531/mahabodhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahabodhi Temple
+Confidence: High
+Reason: The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.",Mahabodhi Temple,High,The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.,Mahabodhi Temple,https://openlibrary.org/search.json?q=Mahabodhi+Temple,The Mahabodhi temple at Bodh Gaya,Ryōjun Satō,2014,1,eng,'9788120839434,/works/OL23285443W,,,0.0003,1.0613,1.2083,0.3155,0.0009,2.5863
+25-04-2026 16:15,/tmp/gradio/91762f1eeabc2b2e0132ac7acf84c334c062e65c5ba60e0c337595b0e9de6531/mahabodhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahabodhi Temple
+Confidence: High
+Reason: The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.",Mahabodhi Temple,High,The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.,Mahabodhi Temple,https://openlibrary.org/search.json?q=Mahabodhi+Temple,Mahabodhi Temple at Bodhgaya,Nikhil Joshi,2019,6,eng,'9781000732511,/works/OL25753200W,,,0.0003,1.0613,1.2083,0.3155,0.0009,2.5863
+25-04-2026 16:15,/tmp/gradio/91762f1eeabc2b2e0132ac7acf84c334c062e65c5ba60e0c337595b0e9de6531/mahabodhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahabodhi Temple
+Confidence: High
+Reason: The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.",Mahabodhi Temple,High,The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.,Mahabodhi Temple,https://openlibrary.org/search.json?q=Mahabodhi+Temple,History of Mahabodhi Temple at Bodh Gaya,K. T. S. Sarao,2020,2,eng,'9789811580697,/works/OL25812533W,,,0.0003,1.0613,1.2083,0.3155,0.0009,2.5863
+25-04-2026 16:15,/tmp/gradio/91762f1eeabc2b2e0132ac7acf84c334c062e65c5ba60e0c337595b0e9de6531/mahabodhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahabodhi Temple
+Confidence: High
+Reason: The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.",Mahabodhi Temple,High,The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.,Mahabodhi Temple,https://openlibrary.org/search.json?q=Mahabodhi+Temple,A miniature replica of the Mahabodhi temple,Benjamin Rowland,1938,2,eng,N/A,/works/OL2606366W,,,0.0003,1.0613,1.2083,0.3155,0.0009,2.5863
+25-04-2026 16:15,/tmp/gradio/91762f1eeabc2b2e0132ac7acf84c334c062e65c5ba60e0c337595b0e9de6531/mahabodhi.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mahabodhi Temple
+Confidence: High
+Reason: The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.",Mahabodhi Temple,High,The image shows the distinctive Buddhist temple tower and complex associated with the Mahabodhi Temple in Bodh Gaya.,Mahabodhi Temple,https://openlibrary.org/search.json?q=Mahabodhi+Temple,The revival of Buddhist pilgrimage at Bodh Gaya (1811-1949),Alan Trevithick,2006,2,eng,'9788120831070,/works/OL10225002W,,,0.0003,1.0613,1.2083,0.3155,0.0009,2.5863
+25-04-2026 16:16,/tmp/gradio/a157692b78028e4d40b9958892336b05c9793617ca6bafde12fb548174b62ce8/marsrover.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mars rover
+Confidence: High
+Reason: The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rover,High,"The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rovers,https://openlibrary.org/search.json?q=Mars+rovers,Mars Rover,Ruth Owen,2022,2,eng,'1788563077,/works/OL27174519W,,,0.0001,1.4672,0.852,0.5552,0.0009,2.8753
+25-04-2026 16:16,/tmp/gradio/a157692b78028e4d40b9958892336b05c9793617ca6bafde12fb548174b62ce8/marsrover.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mars rover
+Confidence: High
+Reason: The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rover,High,"The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rovers,https://openlibrary.org/search.json?q=Mars+rovers,Mars Rovers,Ty Chapman,2023,3,eng,'9798765602799,/works/OL34049907W,,,0.0001,1.4672,0.852,0.5552,0.0009,2.8753
+25-04-2026 16:16,/tmp/gradio/a157692b78028e4d40b9958892336b05c9793617ca6bafde12fb548174b62ce8/marsrover.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mars rover
+Confidence: High
+Reason: The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rover,High,"The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rovers,https://openlibrary.org/search.json?q=Mars+rovers,Mars Rovers,Patricia Hutchison,2016,2,eng,'1503813045,/works/OL27456681W,,,0.0001,1.4672,0.852,0.5552,0.0009,2.8753
+25-04-2026 16:16,/tmp/gradio/a157692b78028e4d40b9958892336b05c9793617ca6bafde12fb548174b62ce8/marsrover.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mars rover
+Confidence: High
+Reason: The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rover,High,"The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rovers,https://openlibrary.org/search.json?q=Mars+rovers,Mars Rovers,Allan Morey,2017,1,,'1618912860,/works/OL25293616W,,,0.0001,1.4672,0.852,0.5552,0.0009,2.8753
+25-04-2026 16:16,/tmp/gradio/a157692b78028e4d40b9958892336b05c9793617ca6bafde12fb548174b62ce8/marsrover.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Mars rover
+Confidence: High
+Reason: The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rover,High,"The image shows a robotic rover on the Martian surface, matching a Mars exploration rover.",Mars rovers,https://openlibrary.org/search.json?q=Mars+rovers,Mars Rovers,David Baker,2023,1,eng,'1802825460,/works/OL35744424W,,,0.0001,1.4672,0.852,0.5552,0.0009,2.8753
+25-04-2026 16:16,/tmp/gradio/bd8ac0e271929fe778ba5f106be948325683f0d86a0b970dc10d3f701b56a899/nalanda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,Medium,"The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,The Nava-Nālandā-Mahāvihāra research publication,Satkari Mookerjee,N/A,1,eng,N/A,/works/OL23742251W,,,0.0001,1.1957,0.8252,0.3621,0.0014,2.3844
+25-04-2026 16:16,/tmp/gradio/bd8ac0e271929fe778ba5f106be948325683f0d86a0b970dc10d3f701b56a899/nalanda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,Medium,"The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,Nalanda Mahavihara,Mary L. Stewart,2018,1,,'9350981149,/works/OL32184941W,,,0.0001,1.1957,0.8252,0.3621,0.0014,2.3844
+25-04-2026 16:16,/tmp/gradio/bd8ac0e271929fe778ba5f106be948325683f0d86a0b970dc10d3f701b56a899/nalanda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,Medium,"The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,Nālandā Mahāvihāra,Mary L. Stewart,1989,1,eng,'9780860546740,/works/OL4512131W,,,0.0001,1.1957,0.8252,0.3621,0.0014,2.3844
+25-04-2026 16:16,/tmp/gradio/bd8ac0e271929fe778ba5f106be948325683f0d86a0b970dc10d3f701b56a899/nalanda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,Medium,"The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,Buddhist Learning in South Asia,Pintu Kumar,2018,2,eng,'9781498554947,/works/OL25333691W,,,0.0001,1.1957,0.8252,0.3621,0.0014,2.3844
+25-04-2026 16:16,/tmp/gradio/bd8ac0e271929fe778ba5f106be948325683f0d86a0b970dc10d3f701b56a899/nalanda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,Medium,"The image shows the ruins of a large ancient Buddhist monastery complex, which resembles Nalanda.",Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,"Nalanda, its mahāvihāra, and Xuan Zang",Chandra S. Prasad,2016,1,eng,'9788178542942,/works/OL32723545W,,,0.0001,1.1957,0.8252,0.3621,0.0014,2.3844
+25-04-2026 16:16,/tmp/gradio/b881560d56f35b290fbf88fc60eb7793eef4b531c15b5527fdda22cbc1898991/niagara.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Niagara Falls
+Confidence: High
+Reason: The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,High,"The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,https://openlibrary.org/search.json?q=Niagara+Falls,Niagara Falls,Robert West Howard,1969,1,eng,N/A,/works/OL22586287W,,,0.0001,1.2687,0.6867,0.4038,0.0013,2.3606
+25-04-2026 16:16,/tmp/gradio/b881560d56f35b290fbf88fc60eb7793eef4b531c15b5527fdda22cbc1898991/niagara.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Niagara Falls
+Confidence: High
+Reason: The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,High,"The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,https://openlibrary.org/search.json?q=Niagara+Falls,Niagara Falls,Michigan Central Railroad Company.,1903,1,eng,N/A,/works/OL1113330W,,,0.0001,1.2687,0.6867,0.4038,0.0013,2.3606
+25-04-2026 16:16,/tmp/gradio/b881560d56f35b290fbf88fc60eb7793eef4b531c15b5527fdda22cbc1898991/niagara.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Niagara Falls
+Confidence: High
+Reason: The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,High,"The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,https://openlibrary.org/search.json?q=Niagara+Falls,Niagara Falls,Unknown,1890,1,eng,N/A,/works/OL16765657W,,,0.0001,1.2687,0.6867,0.4038,0.0013,2.3606
+25-04-2026 16:16,/tmp/gradio/b881560d56f35b290fbf88fc60eb7793eef4b531c15b5527fdda22cbc1898991/niagara.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Niagara Falls
+Confidence: High
+Reason: The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,High,"The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,https://openlibrary.org/search.json?q=Niagara+Falls,The Niagara Falls Mystery,Gertrude Chandler Warner,1997,10,eng,'1480450960,/works/OL15061289W,,,0.0001,1.2687,0.6867,0.4038,0.0013,2.3606
+25-04-2026 16:16,/tmp/gradio/b881560d56f35b290fbf88fc60eb7793eef4b531c15b5527fdda22cbc1898991/niagara.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Niagara Falls
+Confidence: High
+Reason: The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,High,"The image shows the famous large waterfall with mist and river, characteristic of Niagara Falls.",Niagara Falls,https://openlibrary.org/search.json?q=Niagara+Falls,Field Trip to Niagara Falls (Geronimo Stilton),Elisabetta Dami,2006,15,"eng, chi",'2226209433,/works/OL8115839W,,,0.0001,1.2687,0.6867,0.4038,0.0013,2.3606
+25-04-2026 16:16,/tmp/gradio/ea3d53f6984adf47344e5b93fef6447681d4ec2a32dec29db8242b9b580aaa0a/rabindranath.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.",Rabindranath Tagore,High,The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Marjorie Sykes,1943,4,eng,N/A,/works/OL2494144W,,,0.0001,1.0595,0.8442,0.4018,0.0014,2.307
+25-04-2026 16:16,/tmp/gradio/ea3d53f6984adf47344e5b93fef6447681d4ec2a32dec29db8242b9b580aaa0a/rabindranath.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.",Rabindranath Tagore,High,The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Krishna Kripalani,1962,7,eng,'019211137X,/works/OL10497649W,,,0.0001,1.0595,0.8442,0.4018,0.0014,2.307
+25-04-2026 16:16,/tmp/gradio/ea3d53f6984adf47344e5b93fef6447681d4ec2a32dec29db8242b9b580aaa0a/rabindranath.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.",Rabindranath Tagore,High,The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Humayun Kabir,1962,2,eng,N/A,/works/OL294620W,,,0.0001,1.0595,0.8442,0.4018,0.0014,2.307
+25-04-2026 16:16,/tmp/gradio/ea3d53f6984adf47344e5b93fef6447681d4ec2a32dec29db8242b9b580aaa0a/rabindranath.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.",Rabindranath Tagore,High,The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Rabindranath Tagore,2005,1,eng,N/A,/works/OL23892389W,,,0.0001,1.0595,0.8442,0.4018,0.0014,2.307
+25-04-2026 16:16,/tmp/gradio/ea3d53f6984adf47344e5b93fef6447681d4ec2a32dec29db8242b9b580aaa0a/rabindranath.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.",Rabindranath Tagore,High,The image is a well-known portrait of the Indian poet and Nobel laureate Rabindranath Tagore.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Unknown,1999,1,eng,N/A,/works/OL23700456W,,,0.0001,1.0595,0.8442,0.4018,0.0014,2.307
+25-04-2026 16:16,/tmp/gradio/6e6d452378efa5a38967cbd5973530b99a859c38cdc754dcc948a5c9aab2a6ce/rabindranath1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.",Rabindranath Tagore,High,The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Marjorie Sykes,1943,4,eng,N/A,/works/OL2494144W,,,0.0001,0.9889,0.7987,0.5241,0.0008,2.3127
+25-04-2026 16:16,/tmp/gradio/6e6d452378efa5a38967cbd5973530b99a859c38cdc754dcc948a5c9aab2a6ce/rabindranath1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.",Rabindranath Tagore,High,The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Krishna Kripalani,1962,7,eng,'019211137X,/works/OL10497649W,,,0.0001,0.9889,0.7987,0.5241,0.0008,2.3127
+25-04-2026 16:16,/tmp/gradio/6e6d452378efa5a38967cbd5973530b99a859c38cdc754dcc948a5c9aab2a6ce/rabindranath1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.",Rabindranath Tagore,High,The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Humayun Kabir,1962,2,eng,N/A,/works/OL294620W,,,0.0001,0.9889,0.7987,0.5241,0.0008,2.3127
+25-04-2026 16:16,/tmp/gradio/6e6d452378efa5a38967cbd5973530b99a859c38cdc754dcc948a5c9aab2a6ce/rabindranath1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.",Rabindranath Tagore,High,The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Rabindranath Tagore,2005,1,eng,N/A,/works/OL23892389W,,,0.0001,0.9889,0.7987,0.5241,0.0008,2.3127
+25-04-2026 16:16,/tmp/gradio/6e6d452378efa5a38967cbd5973530b99a859c38cdc754dcc948a5c9aab2a6ce/rabindranath1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.",Rabindranath Tagore,High,The image shows the well-known portrait of the Bengali poet and Nobel laureate with his distinctive beard and cap.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Unknown,1999,1,eng,N/A,/works/OL23700456W,,,0.0001,0.9889,0.7987,0.5241,0.0008,2.3127
+25-04-2026 16:16,/tmp/gradio/0abf229ad779fd2c17462e4407ada77a28c24c7acd17b3e28a1570330eaa09ac/rabindranath2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows a well-known portrait of the Bengali poet and Nobel laureate.",Rabindranath Tagore,High,The image shows a well-known portrait of the Bengali poet and Nobel laureate.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Marjorie Sykes,1943,4,eng,N/A,/works/OL2494144W,,,0.0001,1.0851,0.9177,0.2664,0.0009,2.2701
+25-04-2026 16:16,/tmp/gradio/0abf229ad779fd2c17462e4407ada77a28c24c7acd17b3e28a1570330eaa09ac/rabindranath2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows a well-known portrait of the Bengali poet and Nobel laureate.",Rabindranath Tagore,High,The image shows a well-known portrait of the Bengali poet and Nobel laureate.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Krishna Kripalani,1962,7,eng,'019211137X,/works/OL10497649W,,,0.0001,1.0851,0.9177,0.2664,0.0009,2.2701
+25-04-2026 16:16,/tmp/gradio/0abf229ad779fd2c17462e4407ada77a28c24c7acd17b3e28a1570330eaa09ac/rabindranath2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows a well-known portrait of the Bengali poet and Nobel laureate.",Rabindranath Tagore,High,The image shows a well-known portrait of the Bengali poet and Nobel laureate.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Humayun Kabir,1962,2,eng,N/A,/works/OL294620W,,,0.0001,1.0851,0.9177,0.2664,0.0009,2.2701
+25-04-2026 16:16,/tmp/gradio/0abf229ad779fd2c17462e4407ada77a28c24c7acd17b3e28a1570330eaa09ac/rabindranath2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows a well-known portrait of the Bengali poet and Nobel laureate.",Rabindranath Tagore,High,The image shows a well-known portrait of the Bengali poet and Nobel laureate.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Rabindranath Tagore,2005,1,eng,N/A,/works/OL23892389W,,,0.0001,1.0851,0.9177,0.2664,0.0009,2.2701
+25-04-2026 16:16,/tmp/gradio/0abf229ad779fd2c17462e4407ada77a28c24c7acd17b3e28a1570330eaa09ac/rabindranath2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rabindranath Tagore
+Confidence: High
+Reason: The image shows a well-known portrait of the Bengali poet and Nobel laureate.",Rabindranath Tagore,High,The image shows a well-known portrait of the Bengali poet and Nobel laureate.,Rabindranath Tagore,https://openlibrary.org/search.json?q=Rabindranath+Tagore,Rabindranath Tagore,Unknown,1999,1,eng,N/A,/works/OL23700456W,,,0.0001,1.0851,0.9177,0.2664,0.0009,2.2701
+25-04-2026 16:16,/tmp/gradio/161286422d3d22b01c0448cf5357fc8c67fc7646f93629b70fb446d2c8b7e74f/ramanujan.jpeg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: S. R. Ranganathan
+Confidence: High
+Reason: The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.",S. R. Ranganathan,High,The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.,S. R. Ranganathan,https://openlibrary.org/search.json?q=S.+R.+Ranganathan,S.R.Ranganathan,Girja Kumar,1998,1,eng,'8124100055,/works/OL1768132W,,,0.0001,1.1368,0.8514,0.4472,0.0008,2.4363
+25-04-2026 16:16,/tmp/gradio/161286422d3d22b01c0448cf5357fc8c67fc7646f93629b70fb446d2c8b7e74f/ramanujan.jpeg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: S. R. Ranganathan
+Confidence: High
+Reason: The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.",S. R. Ranganathan,High,The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.,S. R. Ranganathan,https://openlibrary.org/search.json?q=S.+R.+Ranganathan,Dr. S.R. Ranganathan,Unknown,1985,1,eng,N/A,/works/OL14160886M,,,0.0001,1.1368,0.8514,0.4472,0.0008,2.4363
+25-04-2026 16:16,/tmp/gradio/161286422d3d22b01c0448cf5357fc8c67fc7646f93629b70fb446d2c8b7e74f/ramanujan.jpeg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: S. R. Ranganathan
+Confidence: High
+Reason: The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.",S. R. Ranganathan,High,The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.,S. R. Ranganathan,https://openlibrary.org/search.json?q=S.+R.+Ranganathan,S.R. Ranganathan,G. C. Kendadamath,2003,1,eng,'9788185694405,/works/OL3879406W,,,0.0001,1.1368,0.8514,0.4472,0.0008,2.4363
+25-04-2026 16:16,/tmp/gradio/161286422d3d22b01c0448cf5357fc8c67fc7646f93629b70fb446d2c8b7e74f/ramanujan.jpeg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: S. R. Ranganathan
+Confidence: High
+Reason: The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.",S. R. Ranganathan,High,The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.,S. R. Ranganathan,https://openlibrary.org/search.json?q=S.+R.+Ranganathan,Dr. S.R. Ranganathan,S. R. Ranganathan,1993,1,eng,N/A,/works/OL23634662W,,,0.0001,1.1368,0.8514,0.4472,0.0008,2.4363
+25-04-2026 16:16,/tmp/gradio/161286422d3d22b01c0448cf5357fc8c67fc7646f93629b70fb446d2c8b7e74f/ramanujan.jpeg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: S. R. Ranganathan
+Confidence: High
+Reason: The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.",S. R. Ranganathan,High,The image appears to be a portrait of the Indian librarian and scholar S. R. Ranganathan.,S. R. Ranganathan,https://openlibrary.org/search.json?q=S.+R.+Ranganathan,Library Classification and S R Ranganathan,"M. P. Satija, Daniel Martinez-Avila, Rosa San Segundo Manuel",2018,1,eng,'9788193607473,/works/OL25408305W,,,0.0001,1.1368,0.8514,0.4472,0.0008,2.4363
+25-04-2026 16:18,/tmp/gradio/67edbc6549b4cd64d4a41e15a9e3e32cbc5cd297aa8361cebea27b16f91f3033/ranganathaswamy.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Meenakshi Amman Temple
+Confidence: High
+Reason: The image shows the distinctive colorful gopurams of the Meenakshi Amman Temple complex in Madurai.",Meenakshi Amman Temple,High,The image shows the distinctive colorful gopurams of the Meenakshi Amman Temple complex in Madurai.,Meenakshi Amman Temple,https://openlibrary.org/search.json?q=Meenakshi+Amman+Temple,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No books found for this search query.,,0.0001,1.0742,1.4009,0.3697,0.0009,2.8457
+25-04-2026 16:19,/tmp/gradio/9dd9279c52b87a9b42ca686b2473b6674091846afa369da0bd32e0d436cbee39/ranikivav.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rani ki Vav
+Confidence: High
+Reason: The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.",Rani ki Vav,High,The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.,Rani ki Vav,https://openlibrary.org/search.json?q=Rani+ki+Vav,Rani ki Vav,Rekha Rao,2014,1,eng,'9788177421354,/works/OL23276936W,,,0.0001,1.2881,1.1517,0.411,0.0009,2.8517
+25-04-2026 16:19,/tmp/gradio/9dd9279c52b87a9b42ca686b2473b6674091846afa369da0bd32e0d436cbee39/ranikivav.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rani ki Vav
+Confidence: High
+Reason: The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.",Rani ki Vav,High,The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.,Rani ki Vav,https://openlibrary.org/search.json?q=Rani+ki+Vav,"Rani-Ki-Vav, Patan",Kirit Mankodi,2012,1,eng,N/A,/works/OL17869060W,,,0.0001,1.2881,1.1517,0.411,0.0009,2.8517
+25-04-2026 16:19,/tmp/gradio/9dd9279c52b87a9b42ca686b2473b6674091846afa369da0bd32e0d436cbee39/ranikivav.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rani ki Vav
+Confidence: High
+Reason: The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.",Rani ki Vav,High,The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.,Rani ki Vav,https://openlibrary.org/search.json?q=Rani+ki+Vav,World Heritage Site in India : Discovering Rani Ki Vav with Real Photos,Tyler Szymonik,2021,1,eng,'9798502130493,/works/OL35868234W,,,0.0001,1.2881,1.1517,0.411,0.0009,2.8517
+25-04-2026 16:19,/tmp/gradio/9dd9279c52b87a9b42ca686b2473b6674091846afa369da0bd32e0d436cbee39/ranikivav.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rani ki Vav
+Confidence: High
+Reason: The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.",Rani ki Vav,High,The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.,Rani ki Vav,https://openlibrary.org/search.json?q=Rani+ki+Vav,Buddhist Art : the Application on Rani Ki Vav,Ali Alhusseini,2021,1,eng,'9798516683848,/works/OL35966917W,,,0.0001,1.2881,1.1517,0.411,0.0009,2.8517
+25-04-2026 16:19,/tmp/gradio/9dd9279c52b87a9b42ca686b2473b6674091846afa369da0bd32e0d436cbee39/ranikivav.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Rani ki Vav
+Confidence: High
+Reason: The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.",Rani ki Vav,High,The image shows a large stepwell with ornate multi-level stone architecture characteristic of Rani ki Vav in Gujarat.,Rani ki Vav,https://openlibrary.org/search.json?q=Rani+ki+Vav,Art of Buddism : Rani Ki Vav and the World Heritage Monument,Neville Rosell,2021,1,eng,'9798516702198,/works/OL35948000W,,,0.0001,1.2881,1.1517,0.411,0.0009,2.8517
+25-04-2026 16:19,/tmp/gradio/3ac265ed2622da139b0b7364d053c9fdccb016c173686cd5c98c25807fd38b3e/santiniketan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Victorian house
+Confidence: Medium
+Reason: The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.",Victorian house,Medium,The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.,Victorian houses,https://openlibrary.org/search.json?q=Victorian+houses,Kidnapped,Robert Louis Stevenson,1886,352,"gle, ita, spa, chi, eng",'1562548735,/works/OL24166W,,,0.0001,1.0451,0.7048,0.5543,0.0009,2.3052
+25-04-2026 16:19,/tmp/gradio/3ac265ed2622da139b0b7364d053c9fdccb016c173686cd5c98c25807fd38b3e/santiniketan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Victorian house
+Confidence: Medium
+Reason: The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.",Victorian house,Medium,The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.,Victorian houses,https://openlibrary.org/search.json?q=Victorian+houses,The Princess and the Goblin,George MacDonald,1872,750,"chi, heb, eng, ger",'0440471893,/works/OL15449W,,,0.0001,1.0451,0.7048,0.5543,0.0009,2.3052
+25-04-2026 16:19,/tmp/gradio/3ac265ed2622da139b0b7364d053c9fdccb016c173686cd5c98c25807fd38b3e/santiniketan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Victorian house
+Confidence: Medium
+Reason: The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.",Victorian house,Medium,The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.,Victorian houses,https://openlibrary.org/search.json?q=Victorian+houses,The Old Curiosity Shop,Charles Dickens,1800,825,"jpn, chi, dut, fre, ita",'9781450528429,/works/OL14869167W,,,0.0001,1.0451,0.7048,0.5543,0.0009,2.3052
+25-04-2026 16:19,/tmp/gradio/3ac265ed2622da139b0b7364d053c9fdccb016c173686cd5c98c25807fd38b3e/santiniketan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Victorian house
+Confidence: Medium
+Reason: The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.",Victorian house,Medium,The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.,Victorian houses,https://openlibrary.org/search.json?q=Victorian+houses,A history of the English-speaking peoples,"Winston S. Churchill, Winston Churchhill, Jeffrey Webb, WINSTON CHURCHILL, CHURCHILL",1950,211,eng,'1411428234,/works/OL134334W,,,0.0001,1.0451,0.7048,0.5543,0.0009,2.3052
+25-04-2026 16:19,/tmp/gradio/3ac265ed2622da139b0b7364d053c9fdccb016c173686cd5c98c25807fd38b3e/santiniketan.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Victorian house
+Confidence: Medium
+Reason: The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.",Victorian house,Medium,The image shows a historic house with ornate Victorian-style architecture and a wraparound veranda.,Victorian houses,https://openlibrary.org/search.json?q=Victorian+houses,She,H. Rider Haggard,1886,506,"pol, heb, epo, spa, ger",'9798747902527,/works/OL17453W,,,0.0001,1.0451,0.7048,0.5543,0.0009,2.3052
+25-04-2026 16:20,/tmp/gradio/c6ef83aad6a67bd6f6e9eba34724ce925a338dac65292e89e30e382040a8dcd7/scbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ho Chi Minh
+Confidence: High
+Reason: The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.",Ho Chi Minh,High,The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.,Ho Chi Minh,https://openlibrary.org/search.json?q=Ho+Chi+Minh,HO CHI MINH,William J. Duiker,2000,3,eng,'078688701X,/works/OL1960734W,,,0.0002,1.1201,0.7169,0.6073,0.0009,2.4454
+25-04-2026 16:20,/tmp/gradio/c6ef83aad6a67bd6f6e9eba34724ce925a338dac65292e89e30e382040a8dcd7/scbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ho Chi Minh
+Confidence: High
+Reason: The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.",Ho Chi Minh,High,The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.,Ho Chi Minh,https://openlibrary.org/search.json?q=Ho+Chi+Minh,Hô Chi Minh,Jean Lacouture,1967,5,"fre, eng",'9782020003148,/works/OL1375329W,,,0.0002,1.1201,0.7169,0.6073,0.0009,2.4454
+25-04-2026 16:20,/tmp/gradio/c6ef83aad6a67bd6f6e9eba34724ce925a338dac65292e89e30e382040a8dcd7/scbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ho Chi Minh
+Confidence: High
+Reason: The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.",Ho Chi Minh,High,The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.,Ho Chi Minh,https://openlibrary.org/search.json?q=Ho+Chi+Minh,Ho Chi Minh,Alexandra Keeble,2004,1,eng,'1876175974,/works/OL8881104W,,,0.0002,1.1201,0.7169,0.6073,0.0009,2.4454
+25-04-2026 16:20,/tmp/gradio/c6ef83aad6a67bd6f6e9eba34724ce925a338dac65292e89e30e382040a8dcd7/scbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ho Chi Minh
+Confidence: High
+Reason: The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.",Ho Chi Minh,High,The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.,Ho Chi Minh,https://openlibrary.org/search.json?q=Ho+Chi+Minh,Ho Chi Minh,Christiane Rageau,1970,1,fre,N/A,/works/OL7187234W,,,0.0002,1.1201,0.7169,0.6073,0.0009,2.4454
+25-04-2026 16:20,/tmp/gradio/c6ef83aad6a67bd6f6e9eba34724ce925a338dac65292e89e30e382040a8dcd7/scbose.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Ho Chi Minh
+Confidence: High
+Reason: The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.",Ho Chi Minh,High,The image shows a well-known portrait of the Vietnamese revolutionary leader speaking at a podium.,Ho Chi Minh,https://openlibrary.org/search.json?q=Ho+Chi+Minh,Hô Chi Minh,Unknown,1988,1,fre,N/A,/works/OL23078792W,,,0.0002,1.1201,0.7169,0.6073,0.0009,2.4454
+25-04-2026 16:21,/tmp/gradio/1f86b28938f37b3b87f982f0af6b6583a49c093ac61bca7bddb2fab09e95c178/scbose1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Subhas Chandra Bose
+Confidence: Medium
+Reason: The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.",Subhas Chandra Bose,Medium,The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.,Subhas Chandra Bose,https://openlibrary.org/search.json?q=Subhas+Chandra+Bose,Subhas Chandra Bose,Unknown,2001,1,ben,N/A,/works/OL23748141W,,,0.0001,1.3812,1.1468,0.7468,0.0009,3.2757
+25-04-2026 16:21,/tmp/gradio/1f86b28938f37b3b87f982f0af6b6583a49c093ac61bca7bddb2fab09e95c178/scbose1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Subhas Chandra Bose
+Confidence: Medium
+Reason: The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.",Subhas Chandra Bose,Medium,The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.,Subhas Chandra Bose,https://openlibrary.org/search.json?q=Subhas+Chandra+Bose,Subhas Chandra Bose,Unknown,2006,1,eng,N/A,/works/OL23993875W,,,0.0001,1.3812,1.1468,0.7468,0.0009,3.2757
+25-04-2026 16:21,/tmp/gradio/1f86b28938f37b3b87f982f0af6b6583a49c093ac61bca7bddb2fab09e95c178/scbose1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Subhas Chandra Bose
+Confidence: Medium
+Reason: The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.",Subhas Chandra Bose,Medium,The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.,Subhas Chandra Bose,https://openlibrary.org/search.json?q=Subhas+Chandra+Bose,Subhas Chandra Bose,Marshall J. Getz,2002,2,eng,'078648067X,/works/OL8569013W,,,0.0001,1.3812,1.1468,0.7468,0.0009,3.2757
+25-04-2026 16:21,/tmp/gradio/1f86b28938f37b3b87f982f0af6b6583a49c093ac61bca7bddb2fab09e95c178/scbose1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Subhas Chandra Bose
+Confidence: Medium
+Reason: The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.",Subhas Chandra Bose,Medium,The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.,Subhas Chandra Bose,https://openlibrary.org/search.json?q=Subhas+Chandra+Bose,Subhas Chandra Bose,Subhash C. Chatopadhyay,1989,1,eng,'9780836424829,/works/OL9651748W,,,0.0001,1.3812,1.1468,0.7468,0.0009,3.2757
+25-04-2026 16:21,/tmp/gradio/1f86b28938f37b3b87f982f0af6b6583a49c093ac61bca7bddb2fab09e95c178/scbose1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Subhas Chandra Bose
+Confidence: Medium
+Reason: The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.",Subhas Chandra Bose,Medium,The image appears to be a well-known portrait of the Indian nationalist leader with round glasses and a shaved head.,Subhas Chandra Bose,https://openlibrary.org/search.json?q=Subhas+Chandra+Bose,Subhas Chandra Bose,Subhas Chandra Bose,1967,1,eng,N/A,/works/OL22299042W,,,0.0001,1.3812,1.1468,0.7468,0.0009,3.2757
+25-04-2026 16:21,/tmp/gradio/ff241845a33e944a2e6ff318a8404180dc6c5a4cc3bd4460390b6f85bbac6090/solarsystem.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Solar System
+Confidence: High
+Reason: The image shows the Sun and labeled planets arranged in an orbital diagram.",Solar System,High,The image shows the Sun and labeled planets arranged in an orbital diagram.,Solar system,https://openlibrary.org/search.json?q=Solar+system,The Magic School Bus,Joanna Cole,1990,25,"chi, fre, eng, spa, gre",'9780545223379,/works/OL83103W,,,0.0002,0.8424,0.6379,0.4287,0.0011,1.9103
+25-04-2026 16:21,/tmp/gradio/ff241845a33e944a2e6ff318a8404180dc6c5a4cc3bd4460390b6f85bbac6090/solarsystem.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Solar System
+Confidence: High
+Reason: The image shows the Sun and labeled planets arranged in an orbital diagram.",Solar System,High,The image shows the Sun and labeled planets arranged in an orbital diagram.,Solar system,https://openlibrary.org/search.json?q=Solar+system,21st Century Astronomy,"Jeffrey S. Hester, David Burstein, George Blumenthal, Ronald Greeley, Jeff Hester, Bradford Smith, Howard Voss, Gary Wegner",2002,46,eng,'9780393675573,/works/OL21725900W,,,0.0002,0.8424,0.6379,0.4287,0.0011,1.9103
+25-04-2026 16:21,/tmp/gradio/ff241845a33e944a2e6ff318a8404180dc6c5a4cc3bd4460390b6f85bbac6090/solarsystem.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Solar System
+Confidence: High
+Reason: The image shows the Sun and labeled planets arranged in an orbital diagram.",Solar System,High,The image shows the Sun and labeled planets arranged in an orbital diagram.,Solar system,https://openlibrary.org/search.json?q=Solar+system,Universe,"Roger A. Freedman, William J. Kaufmann, Thomas Krause, Neil Comins, Roger Freedman",2001,22,eng,'0716746476,/works/OL5741183W,,,0.0002,0.8424,0.6379,0.4287,0.0011,1.9103
+25-04-2026 16:21,/tmp/gradio/ff241845a33e944a2e6ff318a8404180dc6c5a4cc3bd4460390b6f85bbac6090/solarsystem.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Solar System
+Confidence: High
+Reason: The image shows the Sun and labeled planets arranged in an orbital diagram.",Solar System,High,The image shows the Sun and labeled planets arranged in an orbital diagram.,Solar system,https://openlibrary.org/search.json?q=Solar+system,Our Solar System,"Seymour Simon, Seymour Simon",1992,5,eng,'0061140082,/works/OL118098W,,,0.0002,0.8424,0.6379,0.4287,0.0011,1.9103
+25-04-2026 16:21,/tmp/gradio/ff241845a33e944a2e6ff318a8404180dc6c5a4cc3bd4460390b6f85bbac6090/solarsystem.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Solar System
+Confidence: High
+Reason: The image shows the Sun and labeled planets arranged in an orbital diagram.",Solar System,High,The image shows the Sun and labeled planets arranged in an orbital diagram.,Solar system,https://openlibrary.org/search.json?q=Solar+system,Stink Solar System Superhero,Megan McDonald,2009,19,"spa, eng",'0763663921,/works/OL16821101W,,,0.0002,0.8424,0.6379,0.4287,0.0011,1.9103
+25-04-2026 16:22,/tmp/gradio/9cefc5ff041446b13ce1c808fd17e341b76d584efd7deaf6ac3a289dc1bdd63e/srila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: A. C. Bhaktivedanta Swami Prabhupada
+Confidence: Medium
+Reason: The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,Medium,"The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,https://openlibrary.org/search.json?q=A.+C.+Bhaktivedanta+Swami+Prabhupada,Srīla Prabhupāda-līlāmrta,Satsvarūpa Dāsa Gosvāmī,1980,3,eng,'9780892131068,/works/OL15044487W,,,0.0001,1.2648,0.8245,0.8635,0.0009,2.9538
+25-04-2026 16:22,/tmp/gradio/9cefc5ff041446b13ce1c808fd17e341b76d584efd7deaf6ac3a289dc1bdd63e/srila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: A. C. Bhaktivedanta Swami Prabhupada
+Confidence: Medium
+Reason: The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,Medium,"The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,https://openlibrary.org/search.json?q=A.+C.+Bhaktivedanta+Swami+Prabhupada,Swami in a strange land,Joshua Greene,2016,1,eng,'1608876446,/works/OL20032249W,,,0.0001,1.2648,0.8245,0.8635,0.0009,2.9538
+25-04-2026 16:22,/tmp/gradio/9cefc5ff041446b13ce1c808fd17e341b76d584efd7deaf6ac3a289dc1bdd63e/srila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: A. C. Bhaktivedanta Swami Prabhupada
+Confidence: Medium
+Reason: The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,Medium,"The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,https://openlibrary.org/search.json?q=A.+C.+Bhaktivedanta+Swami+Prabhupada,Srīla Prabhupāda-līlāmrta : a biography of His Divine Grace A.C. Bhaktivedanta Swami Prabhupāda,Unknown,N/A,1,,N/A,/works/OL17053314W,,,0.0001,1.2648,0.8245,0.8635,0.0009,2.9538
+25-04-2026 16:22,/tmp/gradio/9cefc5ff041446b13ce1c808fd17e341b76d584efd7deaf6ac3a289dc1bdd63e/srila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: A. C. Bhaktivedanta Swami Prabhupada
+Confidence: Medium
+Reason: The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,Medium,"The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,https://openlibrary.org/search.json?q=A.+C.+Bhaktivedanta+Swami+Prabhupada,Teachings of Queen Kunti by A. C. Bhaktivedanta Swami Prabhupada (2006) Hardcover,Unknown,N/A,1,,N/A,/works/OL36507634W,,,0.0001,1.2648,0.8245,0.8635,0.0009,2.9538
+25-04-2026 16:22,/tmp/gradio/9cefc5ff041446b13ce1c808fd17e341b76d584efd7deaf6ac3a289dc1bdd63e/srila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: A. C. Bhaktivedanta Swami Prabhupada
+Confidence: Medium
+Reason: The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,Medium,"The image appears to show the founder of ISKCON in saffron robes, a commonly recognized portrait of him.",A. C. Bhaktivedanta Swami Prabhupada,https://openlibrary.org/search.json?q=A.+C.+Bhaktivedanta+Swami+Prabhupada,Creating Hare Krishna by,Unknown,N/A,1,,'9789386956521,/works/OL44192241W,,,0.0001,1.2648,0.8245,0.8635,0.0009,2.9538
+25-04-2026 16:22,/tmp/gradio/96bcf6f8487e00b682f46b5705e723db0d593b396de8d5bc907374cdeed95455/sriram.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Venkateswara
+Confidence: High
+Reason: The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.",Lord Venkateswara,High,The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.,Lord Venkateswara,https://openlibrary.org/search.json?q=Lord+Venkateswara,Lord Venkateswara and Alwars,G. T. Gopalakrishna Naidu,1975,1,eng,N/A,/works/OL6656134W,,,0.0001,0.891,0.9122,0.3141,0.0009,2.1183
+25-04-2026 16:22,/tmp/gradio/96bcf6f8487e00b682f46b5705e723db0d593b396de8d5bc907374cdeed95455/sriram.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Venkateswara
+Confidence: High
+Reason: The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.",Lord Venkateswara,High,The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.,Lord Venkateswara,https://openlibrary.org/search.json?q=Lord+Venkateswara,"Lord Venkateswara Swamy, Tirumala Tirupathi Life Sized Album",Unknown,N/A,1,,'9789382557012,/works/OL31554419W,,,0.0001,0.891,0.9122,0.3141,0.0009,2.1183
+25-04-2026 16:22,/tmp/gradio/96bcf6f8487e00b682f46b5705e723db0d593b396de8d5bc907374cdeed95455/sriram.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Venkateswara
+Confidence: High
+Reason: The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.",Lord Venkateswara,High,The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.,Lord Venkateswara,https://openlibrary.org/search.json?q=Lord+Venkateswara,Gold coins in the Srivari Hundi of Lord Venkateswara,Sri Venkateswara Museum,2012,1,eng,N/A,/works/OL32625666W,,,0.0001,0.891,0.9122,0.3141,0.0009,2.1183
+25-04-2026 16:22,/tmp/gradio/96bcf6f8487e00b682f46b5705e723db0d593b396de8d5bc907374cdeed95455/sriram.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Venkateswara
+Confidence: High
+Reason: The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.",Lord Venkateswara,High,The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.,Lord Venkateswara,https://openlibrary.org/search.json?q=Lord+Venkateswara,Tirumala,D. Ravinder Reddy,2012,1,eng,N/A,/works/OL22895822W,,,0.0001,0.891,0.9122,0.3141,0.0009,2.1183
+25-04-2026 16:22,/tmp/gradio/96bcf6f8487e00b682f46b5705e723db0d593b396de8d5bc907374cdeed95455/sriram.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Venkateswara
+Confidence: High
+Reason: The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.",Lord Venkateswara,High,The image shows a richly adorned Hindu deity statue commonly identified as Venkateswara.,Lord Venkateswara,https://openlibrary.org/search.json?q=Lord+Venkateswara,Glory of Lord Sri Venkateswara,S. V. Ramayya,1968,1,eng,N/A,/works/OL6790154W,,,0.0001,0.891,0.9122,0.3141,0.0009,2.1183
+25-04-2026 16:23,/tmp/gradio/91cbb9d61b7263669e491e5b51874d9471a5cc0be45b82c0b3d6276601a73580/sriram1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Rama
+Confidence: High
+Reason: The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,High,"The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,https://openlibrary.org/search.json?q=Lord+Rama,Lord Rama,B. R. Kishore,N/A,1,eng,N/A,/works/OL3431275W,,,0.0001,1.2505,0.8543,0.32,0.0009,2.4257
+25-04-2026 16:23,/tmp/gradio/91cbb9d61b7263669e491e5b51874d9471a5cc0be45b82c0b3d6276601a73580/sriram1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Rama
+Confidence: High
+Reason: The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,High,"The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,https://openlibrary.org/search.json?q=Lord+Rama,Dating the era of Lord Rama,Pushkar Bhatnagar,2004,1,eng,'9788129104984,/works/OL5862759W,,,0.0001,1.2505,0.8543,0.32,0.0009,2.4257
+25-04-2026 16:23,/tmp/gradio/91cbb9d61b7263669e491e5b51874d9471a5cc0be45b82c0b3d6276601a73580/sriram1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Rama
+Confidence: High
+Reason: The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,High,"The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,https://openlibrary.org/search.json?q=Lord+Rama,Lord Rama,S.P. Bansal,2004,1,,'9788189182144,/works/OL10227560W,,,0.0001,1.2505,0.8543,0.32,0.0009,2.4257
+25-04-2026 16:23,/tmp/gradio/91cbb9d61b7263669e491e5b51874d9471a5cc0be45b82c0b3d6276601a73580/sriram1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Rama
+Confidence: High
+Reason: The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,High,"The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,https://openlibrary.org/search.json?q=Lord+Rama,Lord Rama,Krishna's Mercy,2012,1,eng,'9781475262964,/works/OL39930356W,,,0.0001,1.2505,0.8543,0.32,0.0009,2.4257
+25-04-2026 16:23,/tmp/gradio/91cbb9d61b7263669e491e5b51874d9471a5cc0be45b82c0b3d6276601a73580/sriram1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Lord Rama
+Confidence: High
+Reason: The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,High,"The image shows a blue-skinned Hindu deity with a crown, bow, and quiver, which are characteristic of Rama.",Lord Rama,https://openlibrary.org/search.json?q=Lord+Rama,कामसूत्र,Vatsyāyana,1883,381,"hun, ori, san, und, rus",'9798654173478,/works/OL239940W,,,0.0001,1.2505,0.8543,0.32,0.0009,2.4257
+25-04-2026 16:24,/tmp/gradio/d19511bd96afe38e02e3fc6025371857f9e50415a5ca6eeaabf6b9da5be3e141/sundarban.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: tiger
+Confidence: High
+Reason: A tiger is clearly the central subject of the image.",tiger,High,A tiger is clearly the central subject of the image.,tiger,https://openlibrary.org/search.json?q=tiger,The Jungle Book,Rudyard Kipling,1893,536,"chi, rus, fre, ita, urd",'9781772265866,/works/OL19870W,,,0.0001,0.822,1.3855,0.588,0.0009,2.7965
+25-04-2026 16:24,/tmp/gradio/d19511bd96afe38e02e3fc6025371857f9e50415a5ca6eeaabf6b9da5be3e141/sundarban.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: tiger
+Confidence: High
+Reason: A tiger is clearly the central subject of the image.",tiger,High,A tiger is clearly the central subject of the image.,tiger,https://openlibrary.org/search.json?q=tiger,Ozma of Oz,L. Frank Baum,1907,701,"spa, eng, fre",'9781434460226,/works/OL18415W,,,0.0001,0.822,1.3855,0.588,0.0009,2.7965
+25-04-2026 16:24,/tmp/gradio/d19511bd96afe38e02e3fc6025371857f9e50415a5ca6eeaabf6b9da5be3e141/sundarban.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: tiger
+Confidence: High
+Reason: A tiger is clearly the central subject of the image.",tiger,High,A tiger is clearly the central subject of the image.,tiger,https://openlibrary.org/search.json?q=tiger,Life of Pi,Yann Martel,2000,114,"spa, pol, fre, rus, dan",'9788280710659,/works/OL2827199W,,,0.0001,0.822,1.3855,0.588,0.0009,2.7965
+25-04-2026 16:24,/tmp/gradio/d19511bd96afe38e02e3fc6025371857f9e50415a5ca6eeaabf6b9da5be3e141/sundarban.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: tiger
+Confidence: High
+Reason: A tiger is clearly the central subject of the image.",tiger,High,A tiger is clearly the central subject of the image.,tiger,https://openlibrary.org/search.json?q=tiger,Autobiography of a Yogi,Yogananda Paramahansa,1946,183,"mal, por, swe, san, jpn",'0876120907,/works/OL528094W,,,0.0001,0.822,1.3855,0.588,0.0009,2.7965
+25-04-2026 16:24,/tmp/gradio/d19511bd96afe38e02e3fc6025371857f9e50415a5ca6eeaabf6b9da5be3e141/sundarban.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: tiger
+Confidence: High
+Reason: A tiger is clearly the central subject of the image.",tiger,High,A tiger is clearly the central subject of the image.,tiger,https://openlibrary.org/search.json?q=tiger,Ethan Frome,Edith Wharton,1910,1000,"ita, spa, pol, fre, chi",'9781797018546,/works/OL98501W,,,0.0001,0.822,1.3855,0.588,0.0009,2.7965
+25-04-2026 16:24,/tmp/gradio/be52e94815bbfb716528af90cc265a738b5125d201a57b08b532ff2d09d65375/tajmahal.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532180853,/works/OL27120650W,,,0.0001,1.0485,0.6759,0.4939,0.0008,2.2193
+25-04-2026 16:24,/tmp/gradio/be52e94815bbfb716528af90cc265a738b5125d201a57b08b532ff2d09d65375/tajmahal.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahall,Ilyas Sitapuri.,1990,1,urd,N/A,/works/OL10619691W,,,0.0001,1.0485,0.6759,0.4939,0.0008,2.2193
+25-04-2026 16:24,/tmp/gradio/be52e94815bbfb716528af90cc265a738b5125d201a57b08b532ff2d09d65375/tajmahal.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Tāj Maḥal,Nājī.,1973,1,urd,N/A,/works/OL6998382W,,,0.0001,1.0485,0.6759,0.4939,0.0008,2.2193
+25-04-2026 16:24,/tmp/gradio/be52e94815bbfb716528af90cc265a738b5125d201a57b08b532ff2d09d65375/tajmahal.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532180551,/works/OL34355864W,,,0.0001,1.0485,0.6759,0.4939,0.0008,2.2193
+25-04-2026 16:24,/tmp/gradio/be52e94815bbfb716528af90cc265a738b5125d201a57b08b532ff2d09d65375/tajmahal.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and reflecting pool.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532181418,/works/OL39151683W,,,0.0001,1.0485,0.6759,0.4939,0.0008,2.2193
+25-04-2026 16:24,/tmp/gradio/d1571cbb6c8c0a14a8a52f5b764eb9fd7d588e703ebfd7aa7afb23f719a46a91/tajmahal1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and minarets.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and minarets.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532180853,/works/OL27120650W,,,0.0001,0.7042,0.6965,0.306,0.0009,1.7078
+25-04-2026 16:24,/tmp/gradio/d1571cbb6c8c0a14a8a52f5b764eb9fd7d588e703ebfd7aa7afb23f719a46a91/tajmahal1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and minarets.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and minarets.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahall,Ilyas Sitapuri.,1990,1,urd,N/A,/works/OL10619691W,,,0.0001,0.7042,0.6965,0.306,0.0009,1.7078
+25-04-2026 16:24,/tmp/gradio/d1571cbb6c8c0a14a8a52f5b764eb9fd7d588e703ebfd7aa7afb23f719a46a91/tajmahal1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and minarets.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and minarets.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Tāj Maḥal,Nājī.,1973,1,urd,N/A,/works/OL6998382W,,,0.0001,0.7042,0.6965,0.306,0.0009,1.7078
+25-04-2026 16:24,/tmp/gradio/d1571cbb6c8c0a14a8a52f5b764eb9fd7d588e703ebfd7aa7afb23f719a46a91/tajmahal1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and minarets.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and minarets.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532180551,/works/OL34355864W,,,0.0001,0.7042,0.6965,0.306,0.0009,1.7078
+25-04-2026 16:24,/tmp/gradio/d1571cbb6c8c0a14a8a52f5b764eb9fd7d588e703ebfd7aa7afb23f719a46a91/tajmahal1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The image clearly shows the iconic white marble mausoleum with its central dome and minarets.",Taj Mahal,High,The image clearly shows the iconic white marble mausoleum with its central dome and minarets.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532181418,/works/OL39151683W,,,0.0001,0.7042,0.6965,0.306,0.0009,1.7078
+25-04-2026 16:24,/tmp/gradio/696582b52a8a95d458721cd6e3b782a62086068c4cf6d30c580d54ab3f529b54/tajmahal2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.",Taj Mahal,High,The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532180853,/works/OL27120650W,,,0.0002,0.9385,1.1385,0.2923,0.001,2.3705
+25-04-2026 16:24,/tmp/gradio/696582b52a8a95d458721cd6e3b782a62086068c4cf6d30c580d54ab3f529b54/tajmahal2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.",Taj Mahal,High,The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahall,Ilyas Sitapuri.,1990,1,urd,N/A,/works/OL10619691W,,,0.0002,0.9385,1.1385,0.2923,0.001,2.3705
+25-04-2026 16:24,/tmp/gradio/696582b52a8a95d458721cd6e3b782a62086068c4cf6d30c580d54ab3f529b54/tajmahal2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.",Taj Mahal,High,The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Tāj Maḥal,Nājī.,1973,1,urd,N/A,/works/OL6998382W,,,0.0002,0.9385,1.1385,0.2923,0.001,2.3705
+25-04-2026 16:24,/tmp/gradio/696582b52a8a95d458721cd6e3b782a62086068c4cf6d30c580d54ab3f529b54/tajmahal2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.",Taj Mahal,High,The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532180551,/works/OL34355864W,,,0.0002,0.9385,1.1385,0.2923,0.001,2.3705
+25-04-2026 16:24,/tmp/gradio/696582b52a8a95d458721cd6e3b782a62086068c4cf6d30c580d54ab3f529b54/tajmahal2.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Taj Mahal
+Confidence: High
+Reason: The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.",Taj Mahal,High,The iconic white marble mausoleum with its central dome and reflecting garden is clearly visible.,Taj Mahal,https://openlibrary.org/search.json?q=Taj+Mahal,Taj Mahal (Taj Mahal),Grace Hansen,2018,1,spa,'1532181418,/works/OL39151683W,,,0.0002,0.9385,1.1385,0.2923,0.001,2.3705
+25-04-2026 16:24,/tmp/gradio/2b35eb40c145027745d430f07d0767ad9c53b79908d305ad7d87ed3fa0786a40/taxila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.",Nalanda Mahavihara,Medium,The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.,Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,The Nava-Nālandā-Mahāvihāra research publication,Satkari Mookerjee,N/A,1,eng,N/A,/works/OL23742251W,,,0.0001,0.8371,0.8756,0.3327,0.0009,2.0465
+25-04-2026 16:24,/tmp/gradio/2b35eb40c145027745d430f07d0767ad9c53b79908d305ad7d87ed3fa0786a40/taxila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.",Nalanda Mahavihara,Medium,The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.,Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,Nalanda Mahavihara,Mary L. Stewart,2018,1,,'9350981149,/works/OL32184941W,,,0.0001,0.8371,0.8756,0.3327,0.0009,2.0465
+25-04-2026 16:24,/tmp/gradio/2b35eb40c145027745d430f07d0767ad9c53b79908d305ad7d87ed3fa0786a40/taxila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.",Nalanda Mahavihara,Medium,The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.,Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,Nālandā Mahāvihāra,Mary L. Stewart,1989,1,eng,'9780860546740,/works/OL4512131W,,,0.0001,0.8371,0.8756,0.3327,0.0009,2.0465
+25-04-2026 16:24,/tmp/gradio/2b35eb40c145027745d430f07d0767ad9c53b79908d305ad7d87ed3fa0786a40/taxila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.",Nalanda Mahavihara,Medium,The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.,Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,Buddhist Learning in South Asia,Pintu Kumar,2018,2,eng,'9781498554947,/works/OL25333691W,,,0.0001,0.8371,0.8756,0.3327,0.0009,2.0465
+25-04-2026 16:24,/tmp/gradio/2b35eb40c145027745d430f07d0767ad9c53b79908d305ad7d87ed3fa0786a40/taxila.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Nalanda Mahavihara
+Confidence: Medium
+Reason: The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.",Nalanda Mahavihara,Medium,The image shows the ruins of a large ancient Buddhist monastic complex with a prominent stupa-like structure.,Nalanda Mahavihara,https://openlibrary.org/search.json?q=Nalanda+Mahavihara,"Nalanda, its mahāvihāra, and Xuan Zang",Chandra S. Prasad,2016,1,eng,'9788178542942,/works/OL32723545W,,,0.0001,0.8371,0.8756,0.3327,0.0009,2.0465
+25-04-2026 16:25,/tmp/gradio/676a308aa16d68561d4b04bd1f3dea11fa18202543d1f296b0a402f8d24d0265/tiger.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: white tiger
+Confidence: High
+Reason: The image clearly shows a white tiger standing on a rock.",white tiger,High,The image clearly shows a white tiger standing on a rock.,White tiger,https://openlibrary.org/search.json?q=White+tiger,The White Tiger,Aravind Adiga,2008,11,"ger, eng",'1400106656,/works/OL21502115W,,,0.0001,0.955,1.2782,0.5326,0.0009,2.7668
+25-04-2026 16:25,/tmp/gradio/676a308aa16d68561d4b04bd1f3dea11fa18202543d1f296b0a402f8d24d0265/tiger.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: white tiger
+Confidence: High
+Reason: The image clearly shows a white tiger standing on a rock.",white tiger,High,The image clearly shows a white tiger standing on a rock.,White tiger,https://openlibrary.org/search.json?q=White+tiger,The White Tiger,Aravind Adiga,2008,2,eng,'1416562591,/works/OL9740815W,,,0.0001,0.955,1.2782,0.5326,0.0009,2.7668
+25-04-2026 16:25,/tmp/gradio/676a308aa16d68561d4b04bd1f3dea11fa18202543d1f296b0a402f8d24d0265/tiger.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: white tiger
+Confidence: High
+Reason: The image clearly shows a white tiger standing on a rock.",white tiger,High,The image clearly shows a white tiger standing on a rock.,White tiger,https://openlibrary.org/search.json?q=White+tiger,The White Tiger,Aravind Adiga,2008,2,eng,'1410408779,/works/OL15822410W,,,0.0001,0.955,1.2782,0.5326,0.0009,2.7668
+25-04-2026 16:25,/tmp/gradio/676a308aa16d68561d4b04bd1f3dea11fa18202543d1f296b0a402f8d24d0265/tiger.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: white tiger
+Confidence: High
+Reason: The image clearly shows a white tiger standing on a rock.",white tiger,High,The image clearly shows a white tiger standing on a rock.,White tiger,https://openlibrary.org/search.json?q=White+tiger,The Jungle Book,Rudyard Kipling,1893,536,"chi, rus, fre, ita, urd",'9781772265866,/works/OL19870W,,,0.0001,0.955,1.2782,0.5326,0.0009,2.7668
+25-04-2026 16:25,/tmp/gradio/676a308aa16d68561d4b04bd1f3dea11fa18202543d1f296b0a402f8d24d0265/tiger.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: white tiger
+Confidence: High
+Reason: The image clearly shows a white tiger standing on a rock.",white tiger,High,The image clearly shows a white tiger standing on a rock.,White tiger,https://openlibrary.org/search.json?q=White+tiger,White tiger,Olga Bicos,1991,1,eng,'0440207231,/works/OL19312108W,,,0.0001,0.955,1.2782,0.5326,0.0009,2.7668
+25-04-2026 16:26,/tmp/gradio/c029d4ba9a104259aa7ed122c10f07810e8c23aa2cad6a60494ce5c767b96620/titanic.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,High,"The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,Rms Titanic,David F. Hutchings,1987,2,eng,'9780946184293,/works/OL8750072W,,,0.0001,0.9876,0.727,0.4112,0.0013,2.1273
+25-04-2026 16:26,/tmp/gradio/c029d4ba9a104259aa7ed122c10f07810e8c23aa2cad6a60494ce5c767b96620/titanic.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,High,"The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,RMS Titanic,Peter Davies-Garner,2005,5,eng,'1473817692,/works/OL8867925W,,,0.0001,0.9876,0.727,0.4112,0.0013,2.1273
+25-04-2026 16:26,/tmp/gradio/c029d4ba9a104259aa7ed122c10f07810e8c23aa2cad6a60494ce5c767b96620/titanic.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,High,"The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,RMS Titanic,Patrick Mylon,2016,1,eng,'0750961368,/works/OL25688589W,,,0.0001,0.9876,0.727,0.4112,0.0013,2.1273
+25-04-2026 16:26,/tmp/gradio/c029d4ba9a104259aa7ed122c10f07810e8c23aa2cad6a60494ce5c767b96620/titanic.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,High,"The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,RMS Titanic,Peter Davies-Garner,2010,1,eng,'9781591147299,/works/OL16724588W,,,0.0001,0.9876,0.727,0.4112,0.0013,2.1273
+25-04-2026 16:26,/tmp/gradio/c029d4ba9a104259aa7ed122c10f07810e8c23aa2cad6a60494ce5c767b96620/titanic.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,High,"The image shows the famous ocean liner with four funnels, matching the Titanic.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,RMS Titanic,K. T. Smith,2013,1,eng,'1491261927,/works/OL40237063W,,,0.0001,0.9876,0.727,0.4112,0.0013,2.1273
+25-04-2026 16:27,/tmp/gradio/7f7d189675cf8742e832e770a2489097b2674ba0ff07c87a309a1a6e2bc54107/titanic1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,High,"The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,Rms Titanic,David F. Hutchings,1987,2,eng,'9780946184293,/works/OL8750072W,,,0.0001,0.9036,0.6755,0.4555,0.0009,2.0355
+25-04-2026 16:27,/tmp/gradio/7f7d189675cf8742e832e770a2489097b2674ba0ff07c87a309a1a6e2bc54107/titanic1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,High,"The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,RMS Titanic,Peter Davies-Garner,2005,5,eng,'1473817692,/works/OL8867925W,,,0.0001,0.9036,0.6755,0.4555,0.0009,2.0355
+25-04-2026 16:27,/tmp/gradio/7f7d189675cf8742e832e770a2489097b2674ba0ff07c87a309a1a6e2bc54107/titanic1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,High,"The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,RMS Titanic,Patrick Mylon,2016,1,eng,'0750961368,/works/OL25688589W,,,0.0001,0.9036,0.6755,0.4555,0.0009,2.0355
+25-04-2026 16:27,/tmp/gradio/7f7d189675cf8742e832e770a2489097b2674ba0ff07c87a309a1a6e2bc54107/titanic1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,High,"The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,RMS Titanic,Peter Davies-Garner,2010,1,eng,'9781591147299,/works/OL16724588W,,,0.0001,0.9036,0.6755,0.4555,0.0009,2.0355
+25-04-2026 16:27,/tmp/gradio/7f7d189675cf8742e832e770a2489097b2674ba0ff07c87a309a1a6e2bc54107/titanic1.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: RMS Titanic
+Confidence: High
+Reason: The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,High,"The image shows the famous ship sinking at sea, which is strongly associated with the Titanic disaster.",RMS Titanic,https://openlibrary.org/search.json?q=RMS+Titanic,RMS Titanic,K. T. Smith,2013,1,eng,'1491261927,/works/OL40237063W,,,0.0001,0.9036,0.6755,0.4555,0.0009,2.0355
+25-04-2026 16:28,/tmp/gradio/387e44b21bbd37dc090e01539234d0c8ad1170dd4d49c261a643f09724e049c0/vivekananda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Swami Vivekananda
+Confidence: High
+Reason: The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.",Swami Vivekananda,High,The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.,Swami Vivekananda,https://openlibrary.org/search.json?q=Swami+Vivekananda,The complete works of Swami Vivekananda,Swami Vivekananda,1926,15,eng,'9788185301754,/works/OL311928W,,,0.0002,1.0152,1.562,0.3654,0.0009,2.9438
+25-04-2026 16:28,/tmp/gradio/387e44b21bbd37dc090e01539234d0c8ad1170dd4d49c261a643f09724e049c0/vivekananda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Swami Vivekananda
+Confidence: High
+Reason: The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.",Swami Vivekananda,High,The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.,Swami Vivekananda,https://openlibrary.org/search.json?q=Swami+Vivekananda,Swami Vivekananda,"Paul, S.",1998,1,eng,'8171814433,/works/OL3879596W,,,0.0002,1.0152,1.562,0.3654,0.0009,2.9438
+25-04-2026 16:28,/tmp/gradio/387e44b21bbd37dc090e01539234d0c8ad1170dd4d49c261a643f09724e049c0/vivekananda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Swami Vivekananda
+Confidence: High
+Reason: The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.",Swami Vivekananda,High,The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.,Swami Vivekananda,https://openlibrary.org/search.json?q=Swami+Vivekananda,Meditation and its methods according to Swami Vivekananda,"Swami Chetanananda, Swami Vivekananda",1976,5,eng,'9789381841082,/works/OL311859W,,,0.0002,1.0152,1.562,0.3654,0.0009,2.9438
+25-04-2026 16:28,/tmp/gradio/387e44b21bbd37dc090e01539234d0c8ad1170dd4d49c261a643f09724e049c0/vivekananda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Swami Vivekananda
+Confidence: High
+Reason: The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.",Swami Vivekananda,High,The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.,Swami Vivekananda,https://openlibrary.org/search.json?q=Swami+Vivekananda,Swami Vivekananda,Satyakam Vidyalankar,1991,1,hin,'9788121601818,/works/OL11522028W,,,0.0002,1.0152,1.562,0.3654,0.0009,2.9438
+25-04-2026 16:28,/tmp/gradio/387e44b21bbd37dc090e01539234d0c8ad1170dd4d49c261a643f09724e049c0/vivekananda.jpg,gpt-5.4-mini,gpt-5.4-nano,"Main Entity: Swami Vivekananda
+Confidence: High
+Reason: The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.",Swami Vivekananda,High,The image shows the well-known portrait of Swami Vivekananda in saffron robes and turban.,Swami Vivekananda,https://openlibrary.org/search.json?q=Swami+Vivekananda,Swami Vivekananda,Unknown,1998,1,eng,N/A,/works/OL23666188W,,,0.0002,1.0152,1.562,0.3654,0.0009,2.9438
