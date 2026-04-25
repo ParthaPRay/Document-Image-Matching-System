@@ -1,69 +1,101 @@
-########
-# Document-Image Matching System Implementation
-#######
-# Developed by:
-# Partha Pratim Ray
-# http://github.com/ParthaPRay
-# Commercial Licencse [Do NOT use the code without written permission for any type of work such as research or duplication or anything similar]
-# Contact parthapratimray1986@gmail.com
-# 2024
+# ============================================================
+# Document-Image Matching System for Open Library using GPT 5.4
+# Developed By Partha Pratim Ray
+# Contact: parthapratimray1986@gmail.com; ppray@cus.ac.in
+# ============================================================
 
-##########
+# ============================================================
+# Reuired to Install
+# pip install openai gradio pandas requests python-dotenv -q
+# ============================================================
 
-# Version 1
-
-#######################################################
- 
-### Used opanAI and open library APIs
-
-# Create a .env file in same directory of this code and save youw own openai API key
-"""
-OPENAI_API_KEY=your_secret_api_key_here
-"""
-
-import os
+# ============================================================
+# REQUIRED IMPORTS
+# ============================================================
 import base64
+import time
+import os
 import requests
 import pandas as pd
 import gradio as gr
-import asyncio
-from dotenv import load_dotenv
-from openai import AsyncOpenAI  # Updated library
 
-# Load environment variables from .env file
-load_dotenv()
+from datetime import datetime
+from urllib.parse import quote_plus
+from openai import OpenAI
+from google.colab import userdata
 
-# Get the OpenAI API key from the environment
-api_key = os.getenv("OPENAI_API_KEY")
 
-# Create a global AsyncOpenAI client
-client = AsyncOpenAI(api_key=api_key)
+# ============================================================
+# API KEY
+# ============================================================
 
-####### For low res mode, openai expects a 512px x 512px image. 
-####### For high res mode, the short side of the image should be less than 768px and the long side should be less than 2,000px.
+api_key = userdata.get("OPENAI_API_KEY")
 
-############################
-# 1) Async Vision + Summaries
-############################
-async def analyze_image_and_extract_keywords(image_base64: str) -> str:
-    """
-    1) Sends base64-encoded image to an OpenAI vision model to get a textual description.
-    2) Summarizes that textual description into 1 keyword.
-    Returns a string of those keywords.
-    """
+if api_key is None:
+    raise ValueError("Please add OPENAI_API_KEY in Colab Secrets.")
 
-    # STEP A: Send image to an OpenAI vision-capable model for description
+client = OpenAI(api_key=api_key)
+
+
+# ============================================================
+# MODEL SELECTION
+# ============================================================
+
+VISION_MODEL = "gpt-5.4-mini"
+SUMMARY_MODEL = "gpt-5.4-nano"
+
+
+# ============================================================
+# CSV FILE PATH
+# ============================================================
+
+CSV_FILE_PATH = "image_open_library_results.csv"
+
+
+# ============================================================
+# STEP 1: IDENTIFY MAIN ENTITY FROM IMAGE
+# ============================================================
+
+def analyze_image(image_base64: str):
+    start_time = time.perf_counter()
+
     try:
-        vision_response = await client.chat.completions.create(
-            model="gpt-4o-mini",
+        response = client.chat.completions.create(
+            model=VISION_MODEL,
             messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You are an image-to-library-search assistant. "
+                        "Your job is not to describe the whole image generally. "
+                        "Your job is to identify the single most important searchable entity "
+                        "that should be used for book retrieval."
+                    ),
+                },
                 {
                     "role": "user",
                     "content": [
                         {
                             "type": "text",
                             "text": (
-                                "Describe the main objects, concepts, or actions in this image."
+                                "Look at this image and identify the single main searchable entity. "
+                                "The entity may be a famous person, author, book title, monument, place, "
+                                "historical event, object, artwork, animal, plant, scientific concept, "
+                                "religious figure, cultural theme, or academic subject.\n\n"
+                                "Rules:\n"
+                                "1. If a famous person is recognizable or likely, return that person's name.\n"
+                                "2. If text/title is visible, prefer the title or named subject.\n"
+                                "3. Avoid generic visual phrases such as 'elderly man', 'portrait', "
+                                "'black-and-white photo', 'traditional dress', or 'seated person'.\n"
+                                "4. Do not invent unreadable text.\n"
+                                "5. Give the likely main entity and one short reason.\n\n"
+                                "Output format (STRICTLY follow exactly with each item on a new separate line):\n"
+                                "Main Entity: <entity>\n"
+                                "Confidence: <High/Medium/Low>\n"
+                                "Reason: <one short sentence>\n\n"
+                                "Do NOT write everything in one line.\n"
+                                "Do NOT combine fields.\n"
+                                "Each field must be on its own separate line."
                             ),
                         },
                         {
@@ -73,149 +105,501 @@ async def analyze_image_and_extract_keywords(image_base64: str) -> str:
                             },
                         },
                     ],
-                }
+                },
             ],
-            max_tokens=150,
-            temperature=0.7,
+            max_completion_tokens=180,
+            temperature=0.1,
         )
 
-        description_text = vision_response.choices[0].message.content.strip()
+        elapsed_time = time.perf_counter() - start_time
+
+        result = response.choices[0].message.content.strip()
+
+        result = result.replace(" Confidence:", "\nConfidence:")
+        result = result.replace(" Reason:", "\nReason:")
+
+        return result, elapsed_time
 
     except Exception as e:
-        return f"Error analyzing image: {e}"
+        elapsed_time = time.perf_counter() - start_time
+        return f"ERROR_IMAGE_ANALYSIS: {e}", elapsed_time
 
-    # STEP B: Summarize that textual description into 1 keyword
+
+# ============================================================
+# STEP 2: EXTRACT CLEAN OPEN LIBRARY QUERY
+# ============================================================
+
+def extract_search_keyword(image_analysis: str):
+    start_time = time.perf_counter()
+
+    if image_analysis.startswith("ERROR_IMAGE_ANALYSIS"):
+        elapsed_time = time.perf_counter() - start_time
+        return image_analysis, elapsed_time
+
     try:
-        summarization_response = await client.chat.completions.create(
-            model="gpt-4o-mini",
+        response = client.chat.completions.create(
+            model=SUMMARY_MODEL,
             messages=[
                 {
                     "role": "system",
-                    "content": "You are an assistant who extracts concise keywords.",
+                    "content": (
+                        "You create Open Library search queries. "
+                        "Return exactly one clean query. "
+                        "Return only the main entity, not a description. "
+                        "If a famous person is mentioned, return only the full name of the person. "
+                        "Remove generic words such as portrait, photograph, image, picture, elderly man, "
+                        "black-and-white, seated, traditional dress, robe, cap, object, or photo. "
+                        "No explanation. No quotation marks."
+                    ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Original description:\n\n{description_text}\n\n"
-                        "Extract the top 1 keyword or named entity from this text."
+                        f"Image analysis:\n{image_analysis}\n\n"
+                        "Extract the single best Open Library search query."
                     ),
                 },
             ],
-            max_tokens=50,
-            temperature=0.0,
+            max_completion_tokens=25,
+            temperature=0,
         )
-        summary_keywords = summarization_response.choices[0].message.content.strip()
+
+        keyword = response.choices[0].message.content.strip()
+        keyword = keyword.replace('"', "").replace("'", "").strip()
+
+        elapsed_time = time.perf_counter() - start_time
+        return keyword, elapsed_time
 
     except Exception as e:
-        summary_keywords = f"Error extracting keywords: {e}"
+        elapsed_time = time.perf_counter() - start_time
+        return f"ERROR_KEYWORD_EXTRACTION: {e}", elapsed_time
 
-    return summary_keywords
 
-############################
-# 2) Open Library Fetch
-############################
-def fetch_books(query, limit=5):
-    """
-    Fetches books from the Open Library Search API using a general ('q') query.
-    Returns a DataFrame with relevant book details.
-    """
-    base_url = "https://openlibrary.org/search.json"
-    params = {"q": query, "limit": limit}
+# ============================================================
+# STEP 3: OPEN LIBRARY SEARCH
+# ============================================================
+
+def fetch_books(query, limit=5):           ######## Change limit=10, or any other number as number of books you wish
+    start_time = time.perf_counter()
+
+    if query.startswith("ERROR"):
+        elapsed_time = time.perf_counter() - start_time
+        return pd.DataFrame([{"Error": query}]), elapsed_time
+
+    url = "https://openlibrary.org/search.json"
+
+    params = {
+        "q": query,
+        "limit": limit,
+        "fields": "title,author_name,first_publish_year,edition_count,key,isbn,language"
+    }
 
     try:
-        response = requests.get(base_url, params=params)
+        response = requests.get(url, params=params, timeout=20)
         response.raise_for_status()
         data = response.json()
 
+        docs = data.get("docs", [])
+        elapsed_time = time.perf_counter() - start_time
+
+        if not docs:
+            return pd.DataFrame([{"Message": "No books found for this search query."}]), elapsed_time
+
         books = []
-        for doc in data.get("docs", []):
-            book = {
+
+        for doc in docs:
+            isbn_list = doc.get("isbn", [])
+            lang_list = doc.get("language", [])
+
+            books.append({
                 "Title": doc.get("title", "N/A"),
                 "Author": ", ".join(doc.get("author_name", ["Unknown"])),
                 "First Publish Year": doc.get("first_publish_year", "N/A"),
                 "Edition Count": doc.get("edition_count", "N/A"),
-                "Open Library ID": doc.get("key", "N/A"),
-            }
-            books.append(book)
+                "Languages": ", ".join(lang_list[:5]) if isinstance(lang_list, list) else "N/A",
+                "First ISBN": "'" + str(isbn_list[0]) if isinstance(isbn_list, list) and len(isbn_list) > 0 else "N/A",
+                "Open Library Work ID": doc.get("key", "N/A"),
+            })
 
-        return pd.DataFrame(books)
-    except requests.RequestException as e:
-        return pd.DataFrame([{"Error": f"Error fetching data: {e}"}])
+        return pd.DataFrame(books), elapsed_time
 
-############################
-# 3) Async Pipeline
-############################
-async def async_process_image(image):
-    """
-    Async pipeline that:
-      1) Converts the uploaded image to base64
-      2) Sends it to the OpenAI Vision + Summaries to get keywords
-      3) Uses those keywords to query Open Library
-      4) Returns (text_summary, dataframe)
-    """
-    if image is None:
-        return "No image provided", None
+    except Exception as e:
+        elapsed_time = time.perf_counter() - start_time
+        return pd.DataFrame([{"Error": f"Open Library API error: {e}"}]), elapsed_time
 
-    # Convert image to base64
-    with open(image, "rb") as f:
-        base64_image = base64.b64encode(f.read()).decode("utf-8")
 
-    # 1) Analyze + Summarize
-    keywords = await analyze_image_and_extract_keywords(base64_image)
+# ============================================================
+# STEP 4: SAVE RESULTS TO CSV
+# ============================================================
 
-    # 2) Query books
-    books_df = fetch_books(keywords, limit=5)
-    if books_df.empty:
-        return f"**Extracted Keywords**: {keywords}\n\nNo books found.", None
+def extract_main_entity_confidence_reason(image_analysis):
+    main_entity = ""
+    confidence = ""
+    reason = ""
 
-    # 3) Format results
-    books_str = books_df.to_string(index=False)
-    output_text = (
-        f"**Extracted Keywords**: {keywords}\n\n"
-        f"**Top Books**:\n{books_str}"
-    )
+    try:
+        lines = image_analysis.split("\n")
 
-    return output_text, books_df
+        for line in lines:
+            line = line.strip()
+
+            if line.startswith("Main Entity:"):
+                main_entity = line.replace("Main Entity:", "").strip()
+
+            elif line.startswith("Confidence:"):
+                confidence = line.replace("Confidence:", "").strip()
+
+            elif line.startswith("Reason:"):
+                reason = line.replace("Reason:", "").strip()
+
+    except:
+        pass
+
+    return main_entity, confidence, reason
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+def save_results_to_csv(
+    image_path,
+    image_analysis,
+    search_query,
+    search_url,
+    books_df,
+    image_encoding_time,
+    vision_api_time,
+    keyword_api_time,
+    open_library_api_time,
+    other_processing_delay,
+    total_processing_time
+):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    
+    main_entity, confidence, reason = extract_main_entity_confidence_reason(image_analysis)
+
+    rows = []
+
+    for _, row in books_df.iterrows():
+        rows.append({
+            "Timestamp": timestamp,
+            "Uploaded Image Path": image_path,
+            "Vision Model Used": VISION_MODEL,
+            "Keyword Model Used": SUMMARY_MODEL,
+            "Image Analysis": image_analysis,
+            "Main Entity": main_entity,
+            "Confidence": confidence,
+            "Reason": reason,
+            "Final Open Library Search Query": search_query,
+            "Open Library Search URL": search_url,
+
+            "Title": row.get("Title", "N/A"),
+            "Author": row.get("Author", "N/A"),
+            "First Publish Year": row.get("First Publish Year", "N/A"),
+            "Edition Count": row.get("Edition Count", "N/A"),
+            "Languages": row.get("Languages", "N/A"),
+            "First ISBN": row.get("First ISBN", "N/A"),
+            "Open Library Work ID": row.get("Open Library Work ID", "N/A"),
+            "Message": row.get("Message", ""),
+            "Error": row.get("Error", ""),
+
+            "Image Encoding Time (seconds)": round(image_encoding_time, 4),
+            "Vision API Time (seconds)": round(vision_api_time, 4),
+            "Keyword API Time (seconds)": round(keyword_api_time, 4),
+            "Open Library API Time (seconds)": round(open_library_api_time, 4),
+            "Other Processing / Network Delay (seconds)": round(other_processing_delay, 4),
+            "Total Processing Time (seconds)": round(total_processing_time, 4)
+        })
+
+    csv_df = pd.DataFrame(rows)
+
+    if os.path.exists(CSV_FILE_PATH):
+        csv_df.to_csv(CSV_FILE_PATH, mode="a", index=False, header=False, encoding="utf-8-sig")
+    else:
+        csv_df.to_csv(CSV_FILE_PATH, mode="w", index=False, header=True, encoding="utf-8-sig")
+
+    return CSV_FILE_PATH
+
+# ============================================================
+# STEP 5: MAIN PIPELINE
+# ============================================================
 
 def process_image(image):
-    """
-    This is the synchronous function Gradio calls. 
-    Under the hood, it runs the async pipeline via asyncio.run().
-    """
-    return asyncio.run(async_process_image(image))
+    total_start_time = time.perf_counter()
 
-############################
-# 4) Gradio Interface
-############################
-with gr.Blocks() as demo:
-    gr.Markdown("""
-    ## Document-Image Matching System Implementation
-    
-    **Image → Keywords → Books (Async OpenAI Vision + Text API and Open Library API)**
-    
-    **Developed by Partha Pratim Ray**
-    
-    **Contact: parthapratimray1986@gmail.com, Copyright 2024**
+    if image is None:
+        return "Please upload an image.", None, None, None
 
-    **Commercial License**
-    
-    This application uses an AI-powered pipeline to analyze images, extract keywords, and fetch relevant books. Interested persons/entities must take permission before using any part of this code into reserach, study, learning or commerical purposes. Use of this code without written permission is legally punishable.
-    """)
-    with gr.Row():
-        with gr.Column():
-            image_input = gr.Image(type="filepath", label="Upload an image")
-            submit_button = gr.Button("Analyze & Find Books")
-        with gr.Column():
-            output_text = gr.Markdown()
-            output_table = gr.Dataframe()
+    image_encoding_start = time.perf_counter()
 
-    # Connect the button click to the synchronous wrapper function
-    submit_button.click(
-        fn=process_image,
-        inputs=[image_input],
-        outputs=[output_text, output_table],
+    with open(image, "rb") as f:
+        image_base64 = base64.b64encode(f.read()).decode("utf-8")
+
+    image_encoding_time = time.perf_counter() - image_encoding_start
+
+    image_analysis, vision_api_time = analyze_image(image_base64)
+    search_query, keyword_api_time = extract_search_keyword(image_analysis)
+    books_df, open_library_api_time = fetch_books(search_query, limit=5)       ######## Change limit=10, or any other number as number of books you wish
+
+    total_processing_time = time.perf_counter() - total_start_time
+
+    other_processing_delay = total_processing_time - (
+        image_encoding_time +
+        vision_api_time +
+        keyword_api_time +
+        open_library_api_time
     )
 
-if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0")
+    encoded_query = quote_plus(search_query)
+    search_url = f"https://openlibrary.org/search.json?q={encoded_query}"
 
+    timing_df = pd.DataFrame([
+        {
+            "Processing Stage": "Image Encoding",
+            "Model/API Used": "Local base64 encoding",
+            "Time Taken (seconds)": round(image_encoding_time, 4)
+        },
+        {
+            "Processing Stage": "Image Analysis API Call",
+            "Model/API Used": VISION_MODEL,
+            "Time Taken (seconds)": round(vision_api_time, 4)
+        },
+        {
+            "Processing Stage": "Keyword Extraction API Call",
+            "Model/API Used": SUMMARY_MODEL,
+            "Time Taken (seconds)": round(keyword_api_time, 4)
+        },
+        {
+            "Processing Stage": "Open Library API Call",
+            "Model/API Used": "Open Library Search API",
+            "Time Taken (seconds)": round(open_library_api_time, 4)
+        },
+        {
+            "Processing Stage": "Other Processing / Network Delay",
+            "Model/API Used": "Internal pipeline overhead",
+            "Time Taken (seconds)": round(other_processing_delay, 4)
+        },
+        {
+            "Processing Stage": "Total Processing Time",
+            "Model/API Used": "Complete end-to-end pipeline",
+            "Time Taken (seconds)": round(total_processing_time, 4)
+        }
+    ])
+
+    csv_file = save_results_to_csv(
+        image_path=image,
+        image_analysis=image_analysis,
+        search_query=search_query,
+        search_url=search_url,
+        books_df=books_df,
+        image_encoding_time=image_encoding_time,
+        vision_api_time=vision_api_time,
+        keyword_api_time=keyword_api_time,
+        open_library_api_time=open_library_api_time,
+        other_processing_delay=other_processing_delay,
+        total_processing_time=total_processing_time
+    )
+
+    output_text = f"""
+## Result
+
+**Vision Model Used:** `{VISION_MODEL}`  
+**Keyword Model Used:** `{SUMMARY_MODEL}`  
+
+### Image Analysis
+
+{image_analysis.replace(chr(10), "  \n")}
+
+### Final Open Library Search Query
+`{search_query}`
+
+### Open Library Search URL
+`{search_url}`
+
+### Processing Time Summary
+
+**Vision API Time:** `{round(vision_api_time, 4)} seconds`  
+**Keyword API Time:** `{round(keyword_api_time, 4)} seconds`  
+**Open Library API Time:** `{round(open_library_api_time, 4)} seconds`  
+**Total Processing Time:** `{round(total_processing_time, 4)} seconds`
+
+### CSV Saving Status
+
+Results have been saved successfully in local CSV file:
+
+`{CSV_FILE_PATH}`
+"""
+
+    return output_text, books_df, timing_df, csv_file
+
+
+# ============================================================
+# STEP 6: ATTRACTIVE GRADIO INTERFACE (SOBER COLOR SCHEME)
+# ============================================================
+
+custom_css = """
+body {
+    background: linear-gradient(135deg, #f8fafc 0%, #f5f5f4 45%, #fafaf9 100%);
+}
+
+.gradio-container {
+    max-width: 1500px !important;
+    margin: auto !important;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+#main-header {
+    text-align: center;
+    padding: 30px 22px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #dbeafe, #e0e7ff, #f5f3ff);
+    color: #1e293b;
+    margin-bottom: 22px;
+    box-shadow: 0 10px 24px rgba(148, 163, 184, 0.18);
+    border: 1px solid #cbd5e1;
+}
+
+#main-header h1 {
+    font-size: 34px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+#main-header p {
+    font-size: 16px;
+    opacity: 0.95;
+    color: #334155;
+}
+
+.info-card {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+    border: 1px solid #d6d3d1;
+    margin-bottom: 18px;
+}
+
+#upload-card, #result-card {
+    background: white;
+    border-radius: 20px;
+    padding: 22px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    border: 1px solid #d6d3d1;
+}
+
+#analyze-btn {
+    background: linear-gradient(135deg, #374151, #111827) !important;
+    color: white !important;
+    border-radius: 14px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    padding: 12px !important;
+    border: none !important;
+}
+
+#analyze-btn:hover {
+    box-shadow: 0 8px 18px rgba(17, 24, 39, 0.18);
+}
+
+#footer-note {
+    text-align: center;
+    color: #57534e;
+    font-size: 13px;
+    margin-top: 18px;
+}
+"""
+
+with gr.Blocks(css=custom_css, theme=gr.themes.Soft()) as demo:
+
+    gr.HTML(
+        """
+        <div id="main-header">
+            <h1>📚 Document–Image Matching System for Open Library using GPT5.4</h1>
+            <p>AI-powered Image → Main Entity Identification → Open Library Book Retrieval</p>
+        </div>
+        """
+    )
+
+    gr.Markdown(
+        """
+        <div class="info-card">
+
+        ### 🔍 System Workflow
+
+        **Image Upload** → **Main Entity Detection** → **Clean Search Query** → **Open Library Results**
+
+        **Model Strategy:**  
+        - 🖼️ Image/entity identification: `gpt-5.4-mini`  
+        - 🧠 Query cleaning: `gpt-5.4-nano`  
+        - 📖 Retrieval source: Open Library API  
+
+        </div>
+        """
+    )
+
+    with gr.Row():
+        with gr.Column(scale=1, elem_id="upload-card"):
+            gr.Markdown("## 🖼️ Upload Image")
+
+            image_input = gr.Image(
+                type="filepath",
+                label="Upload an image of a person, book cover, monument, object, or document",
+                height=500
+            )
+
+            submit_button = gr.Button(
+                "🚀 Analyze Image and Find Books",
+                elem_id="analyze-btn"
+            )
+
+        with gr.Column(scale=5, elem_id="result-card"):
+            gr.Markdown("## 📌 AI Analysis Result")
+
+            output_text = gr.Markdown()
+
+            gr.Markdown("## 📚 Open Library Results")
+
+            output_table = gr.Dataframe(
+                label="Matched Books",
+                wrap=True,
+                interactive=False
+            )
+
+            gr.Markdown("## ⏱️ API and Processing Time Analysis")
+
+            timing_table = gr.Dataframe(
+                label="Timing Summary",
+                wrap=True,
+                interactive=False
+            )
+
+            gr.Markdown("## 💾 Saved CSV File")
+
+            csv_output = gr.File(
+                label="Download / View Saved CSV File"
+            )
+
+    gr.HTML(
+        """
+        <div id="footer-note">
+            Developed by Partha Pratim Ray (parthapratimray1986@gmail.com) for research demonstration | Image-to-Library Retrieval using OpenAI Vision Models and Open Library API
+        </div>
+        """
+    )
+
+    submit_button.click(
+        fn=process_image,
+        inputs=image_input,
+        outputs=[output_text, output_table, timing_table, csv_output],
+    )
+
+demo.launch(share=True, debug=False)
