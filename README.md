@@ -1,125 +1,400 @@
-# Document-Image Matching System
+````markdown
+# 📚 Document–Image Matching System for Open Library using GPT 5.4
 
-## Overview
-The Document-Image Matching System is an advanced application designed to analyze images, extract keywords, and fetch relevant books using cutting-edge AI capabilities. It leverages OpenAI's vision and text APIs, alongside the Open Library API, to deliver accurate and efficient results.
+AI-powered **Image → Main Entity Identification → Open Library Book Retrieval** using OpenAI Vision Models and the Open Library API.
 
-
-Loom share: loom.com/share/737a9c546a68438e9cc14644a6aeb1d8
-
-
-## Key Features
-1. **AI-Powered Image Analysis**
-   - Utilizes an OpenAI vision model to generate textual descriptions from images.
-   - Summarizes descriptions into concise keywords.
-
-2. **Open Library Integration**
-   - Searches the Open Library database using extracted keywords.
-   - Retrieves book details, including titles, authors, and publication years.
-
-3. **Async Processing Pipeline**
-   - Efficiently handles asynchronous operations for image analysis and book search.
-   - Converts images to base64 for seamless API interaction.
-
-4. **User-Friendly Interface**
-   - Developed with Gradio for an interactive, easy-to-use platform.
-   - Allows users to upload images and view results directly in the application.
+Developed by **Partha Pratim Ray**  
+📧 parthapratimray1986@gmail.com  
+📧 ppray@cus.ac.in
 
 ---
 
-## System Workflow
-1. **Image Upload**:
-   - Users upload an image through the interface.
+## 🚀 Project Overview
 
-2. **Image Processing**:
-   - The system converts the image to base64 format.
-   - The encoded image is analyzed by OpenAI's vision API for descriptive text.
+This project is an intelligent multimodal retrieval system that accepts an uploaded image and automatically identifies the **single most important searchable entity** from that image (such as a famous person, book title, monument, historical event, scientific concept, cultural object, or academic subject).
 
-3. **Keyword Extraction**:
-   - The descriptive text is summarized into concise keywords.
+The system then converts that entity into a clean bibliographic search query and retrieves the most relevant books from the **Open Library API**, presenting results in a structured tabular format along with detailed API timing analysis.
 
-4. **Book Retrieval**:
-   - Extracted keywords are used to query the Open Library API.
-   - Relevant book details are fetched and displayed in a tabular format.
+Additionally, all results are automatically saved into a local `.csv` file for future research analysis, benchmarking, and documentation.
 
-5. **Result Presentation**:
-   - Keywords and corresponding books are shown in the application for user review.
+This system is especially useful for:
+
+- Academic demonstrations
+- Research prototypes
+- Digital library systems
+- Educational retrieval systems
+- Multimodal search experiments
+- AI-assisted bibliographic discovery
+
+Source code reference: :contentReference[oaicite:0]{index=0}
 
 ---
 
-## Requirements
-### Environment Setup
-- Python 3.8+
-- Required libraries:
-  - `os`
-  - `base64`
-  - `requests`
-  - `pandas`
-  - `gradio`
-  - `asyncio`
-  - `dotenv`
-  - `openai`
+# 🔍 Core Workflow
 
-### Configuration
-1. **API Key Setup**:
-   - Create a `.env` file in the project directory.
-   - Add your OpenAI API key:
-     ```
-     OPENAI_API_KEY=your_secret_api_key_here
-     ```
+```text
+Image Upload
+   ↓
+Image Encoding (Base64)
+   ↓
+AI Vision Analysis (GPT-5.4-mini)
+   ↓
+Main Entity Detection
+   ↓
+Textual Description Generation
+   ↓
+Keyword Extraction (GPT-5.4-nano)
+   ↓
+Bibliographic Query Generation
+   ↓
+Open Library Search API
+   ↓
+Book Retrieval
+   ↓
+Result Display + CSV Logging
+````
 
-It is wise to first export the openapi api key on your envirnment (Linux)
+---
+
+# 🧠 Model Strategy
+
+| Task           | Model/API Used   |
+| -------------- | ---------------- |
+| Image Analysis | GPT-5.4-mini     |
+| Query Cleaning | GPT-5.4-nano     |
+| Book Retrieval | Open Library API |
+| User Interface | Gradio           |
+| Result Storage | CSV + Pandas     |
+
+---
+
+# ✨ Key Features
+
+## 1. Intelligent Image Understanding
+
+Instead of generating generic image descriptions, the system identifies:
+
+* Famous personalities
+* Authors
+* Historical figures
+* Religious figures
+* Monuments
+* Artworks
+* Scientific concepts
+* Cultural themes
+* Academic subjects
+* Book titles
+* Recognizable named entities
+
+This significantly improves search quality.
+
+---
+
+## 2. Strict Entity-Based Retrieval
+
+The system avoids vague descriptions such as:
+
+❌ elderly man
+❌ black-and-white photo
+❌ traditional dress
+❌ seated person
+
+and prioritizes:
+
+✅ C. V. Raman
+✅ Buddha
+✅ White Tiger
+✅ Bharatanatyam
+✅ Taj Mahal
+
+This improves Open Library matching accuracy.
+
+---
+
+## 3. Structured Open Library Search
+
+Retrieved metadata includes:
+
+* Title
+* Author
+* First Publish Year
+* Edition Count
+* Languages
+* ISBN
+* Open Library Work ID
+
+---
+
+## 4. Automatic CSV Logging
+
+Every processed image is permanently saved in:
+
+```text
+image_open_library_results.csv
+```
+
+This supports:
+
+* research reproducibility
+* performance benchmarking
+* large-scale experiments
+* longitudinal evaluation
+
+---
+
+## 5. API Performance Benchmarking
+
+The system records:
+
+* Image Encoding Time
+* Vision API Time
+* Keyword API Time
+* Open Library API Time
+* Internal Processing Delay
+* Total End-to-End Processing Time
+
+This enables system-level performance analysis.
+
+---
+
+# 📦 Required Installation
+
+Install dependencies using:
+
+```bash
+pip install openai gradio pandas requests python-dotenv -q
+```
+
+---
+
+# 🔐 OpenAI API Setup (Google Colab)
+
+This project is designed for **Google Colab**.
+
+Store your API key securely using:
+
+```python
+from google.colab import userdata
+```
+
+Add your OpenAI key inside:
+
+```text
+Colab Secrets → OPENAI_API_KEY
+```
+
+The system automatically loads:
+
+```python
+api_key = userdata.get("OPENAI_API_KEY")
+```
+
+---
+
+# ▶️ How to Run
+
+## Step 1
+
+Open the notebook in **Google Colab**
+
+---
+
+## Step 2
+
+Install required packages
+
+```bash
+pip install openai gradio pandas requests python-dotenv -q
+```
+
+---
+
+## Step 3
+
+Add your OpenAI API Key to Colab Secrets
+
+```text
+OPENAI_API_KEY
+```
+
+---
+
+## Step 4
+
+Run all cells
+
+---
+
+## Step 5
+
+Upload an image and click:
+
+```text
+🚀 Analyze Image and Find Books
+```
+
+---
+
+## Step 6
+
+View:
+
+* AI Analysis Result
+* Open Library Results
+* Timing Summary
+* Saved CSV File
+
+---
+
+# 📊 Example Output
+
+## Image Analysis
+
+```text
+Main Entity: C. V. Raman
+Confidence: High
+Reason: The portrait closely matches the well-known Indian physicist C. V. Raman in formal attire and turban.
+```
+
+---
+
+## Final Open Library Search Query
+
+```text
+C. V. Raman
+```
+
+---
+
+## Open Library Results
+
+| Title                   | Author  | Year |
+| ----------------------- | ------- | ---- |
+| The Life of C. V. Raman | Various | 1985 |
+
+---
+
+## Timing Summary
+
+```text
+Vision API Time: 1.53 seconds
+Keyword API Time: 0.76 seconds
+Open Library API Time: 0.41 seconds
+Total Processing Time: 2.71 seconds
+```
+
+---
+
+# 🎯 Research Significance
+
+This work demonstrates a practical bridge between:
+
+## Computer Vision
+
+and
+
+## Bibliographic Information Retrieval
+
+using lightweight LLM-based semantic reasoning.
+
+It is especially valuable for:
+
+* Digital Humanities
+* Smart Libraries
+* Educational AI Systems
+* Visual Knowledge Retrieval
+* AI-powered Cataloguing
+* Library Science Automation
+
+---
+
+# 🖥️ Interface Design
+
+The system uses a professionally designed **Gradio Interface** with:
+
+* sober academic color scheme
+* structured workflow display
+* wide result tables
+* clean result visualization
+* CSV download support
+* professional research presentation aesthetics
+
+Suitable for:
+
+* conferences
+* thesis demonstrations
+* congress presentations
+* research exhibitions
+
+---
+
+# 🔬 Future Improvements
+
+Possible future extensions include:
+
+* multi-book relevance ranking
+* PDF retrieval integration
+* Google Books API support
+* CrossRef API support
+* Semantic Scholar integration
+* OCR for scanned documents
+* multilingual search support
+* domain-specific academic retrieval
+* local vector database integration
+* RAG-based scholarly retrieval
+
+---
+
+# 👨‍💻 Author
+
+## Dr. Partha Pratim Ray
+
+Assistant Professor (Stage II)
+Department of Computer Applications
+School of Physical Sciences
+Sikkim University
+
+Research Areas:
+
+* Internet of AI Things (IoAT)
+* Edge Computing
+* Large Language Models
+* Multimodal Retrieval Systems
+* Generative AI
+* Pervasive Biomedical Informatics
+
+Recognitions:
+
+* Stanford Top 2% Scientist
+* Fellow of IETE
+* Senior Member of INAE
+
+---
+
+# 📜 License
+
+This project is developed for:
+
+## Academic Research and Educational Demonstration
+
+Feel free to use, extend, and cite for non-commercial academic purposes.
+
+---
+
+# ⭐ If You Like This Project
+
+Please consider:
+
+* starring the repository
+* citing the work
+* sharing with researchers
+* extending the system for your domain
+
+---
+
+# धन्यवाद
+
+Building intelligent bridges between images and knowledge.
 
 ```
-export OPENAI_API_KEY="your_api_key_here"
 ```
-
-2. **Dependencies Installation**:
-   - Install required libraries using pip:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
----
-
-## Usage Instructions
-1. **Launching the Application**:
-   - Run the script using Python:
-     ```bash
-     python app.py
-     ```
-
-2. **Uploading an Image**:
-   - Use the Gradio interface to upload an image.
-
-3. **Viewing Results**:
-   - Keywords and relevant books are displayed after processing.
-
----
-
-## License
-### Commercial License
-Copyright (c) 2024 Partha Pratim Ray
-
-Permission is hereby granted, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for personal or academic purposes only, subject to the following conditions:
-
-1. **Commercial Use**:
-   This Software is licensed for commercial use only under explicit written permission and a fee agreed upon with the author, Partha Pratim Ray. Unauthorized commercial use, including but not limited to distribution, sublicensing, or monetization of this Software or any derivative works, is strictly prohibited and subject to legal action.
-
-2. **Restrictions**:
-   - The Software shall not be used for any unlawful or unethical purpose.
-   - Duplication, replication, or redistribution of the Software, in whole or in part, is prohibited without prior written consent.
-   - Modification or removal of any copyright notices is prohibited.
-
-3. **Attribution**:
-   - All usage, publications, or projects utilizing this Software must give appropriate credit to the author, Partha Pratim Ray.
-   - Include the following attribution statement in any derivative works or research:
-     > "This software was developed by Partha Pratim Ray and is used under a commercial license."
-
-4. **Warranty Disclaimer**:
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-For licensing inquiries, fees, or permissions, contact:
-- Email: parthapratimray1986@gmail.com
-- GitHub: [ParthaPRay](http://github.com/ParthaPRay)
-
-
